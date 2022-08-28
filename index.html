@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Injustice Info: Home</title>
+    <link rel="icon" href="img/icon/game_favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <picture>
+        <source media="(max-width: 400px)" srcset="img/IGAUBanner_tiny.jpg">
+        <source media="(max-width: 500px)" srcset="img/IGAUBanner_small.jpg">
+        <source media="(max-width: 750px)" srcset="img/IGAUBanner_medium.jpg">
+        <img class="banner" src="img/IGAUBanner.jpg" alt="Injustice Mobile: Game Info and Guides">
+    </picture>
+    <nav class="navbar">
+        <ul>
+            <li class="no_expand"><a class="active" href="#home"><span class="home_icon"></span>HOME</a></li>
+            <li class="no_expand"><a href="#cycles"><span class="online_icon"></span>ALL CYCLES</a></li>
+            <li class="dropdown"><a><span class="story_icon"></span>GUIDES</a>
+                <div class="grid-body">
+                    <div class="grid-header">
+                        <label class="challenge_header"><a><span class="character_icon"></span>CHALLENGE MODE</a></label>
+                        <label class="story_header"><a><span class="story_icon"></span>STORY MODE</a></label>
+                        <label class="survivor_header"><a><span class="survivor_icon"></span>SURVIVOR MODE</a></label>
+                        <label class="online_header"><a><span class="online_icon"></span>ONLINE BATTLES</a></label>
+                        <label class="pz_header"><a><span class="phantom_zone_icon"></span>PHANTOM ZONE</a></label>
+                        <label class="progression_header"><a><span class="store_icon"></span>GAME PROGRESSION</a></label>
+                    </div>
+                    <div class="grid-content">
+                        <label class="challenge_cell"><a href="#"><span class="credits_icon"></span>SKIP COSTS</a></label>
+                        <label class="story_cell"><a href="#"><span class="credits_icon"></span>BATTLE REWARDS</a></label>
+                        <label class="survivor_cell"><a href="#"><span class="llt_icon"></span>WHEEL MECHANICS</a></label>
+                        <label class="online_cell"><a href="#"><span class="small_online_icon"></span>SEASON
+                                RANKINGS</a></label>
+                        <label class="pz_cell"><a href="#"><span class="pz_drop_icon"></span>LIST OF DROPS</a></label>
+                        <label class="progression_cell"><a href="#"><span class="gold_superman_icon"></span>BEGINNER'S
+                                GUIDE</a></label>
+    
+                        <label class="challenge_cell"><a href="#"><span class="credits_icon"></span>FIGHT
+                                REWARDS</a></label>
+                        <label class="story_cell"><a href="#"><span class="xp_icon"></span>XP CALCULATOR</a></label>
+                        <label class="survivor_cell"><a href="#"><span class="augment_icon"></span>AUGMENTATION
+                                GUIDE</a></label>
+                        <label class="online_cell"><a href="#"><span class="br_icon"></span>OFFENSE STRATEGIES</a></label>
+                        <label class="pz_cell"><a href="#"><span class="pz_crystal_icon"></span>STRATEGIES</a></label>
+                        <label class="progression_cell"><a href="#"><span class="shards_icon"></span>GEAR GUIDE</a></label>
+    
+                        <label class="challenge_cell"><a href="#"><span
+                                    class="story_check_icon"></span>STRATEGIES</a></label>
+                        <label class="story_cell"><a href="#"><span class="story_check_icon"></span>STRATEGIES</a></label>
+                        <label class="survivor_cell"><a href="#"><span class="survivor_icon"></span>STRATEGIES</a></label>
+                        <label class="online_cell"><a href="#"><span class="defense_icon"></span>DEFENSE
+                                STRATEGIES</a></label>
+                        <label class="pz_cell"><a href="#"><span class="val_icon"></span>METAL UPGRADE COSTS</a></label>
+                        <label class="progression_cell"><a>&nbsp;</a></label>
+                    </div>
+                </div>
+            </li>
+            <li class="no_expand"><a href="#teambuilder"><span class="collection_icon"></span>TEAM BUILDER</a></li>
+            <li class="no_expand"><a href="#statcalc"><span class="calculator_icon"></span>STAT CALCULATOR</a></li>
+            <li class="no_expand"><a href="#characters"><span class="store_icon"></span>CHARACTERS</a></li>
+            <li class="no_expand"><a href="#gears"><span class="gear_icon"></span>GEARS</a></li>
+        </ul>
+    </nav>
+
+    <nav class="mobile-menu">
+        <input type="checkbox" id="menu" name="menu" class="m-menu__checkbox">
+        <!-- Hamburger menu button -->
+        <label class="m-menu__toggle" for="menu">&#9776;</label>
+        <label class="m-menu__overlay" for="menu"></label>
+    
+        <div class="m-menu">
+            <div class="m-menu__header">
+                <!-- X button -->
+                <label class="m-menu__toggle" for="menu">&#x2716;</label>
+                <span>MENU</span>
+            </div>
+            <ul>
+                <li><label><a class="active m-menu__content" href="#home"><span class="home_icon"></span>HOME</a></label></li>
+                <li><label><a class="m-menu__content" href="#cycles"><span class="online_icon"></span>ALL CYCLES</a></label></li>
+                <li>
+                    <label class="a-label__chevron m-menu__content" for="guides-expand"><a><span class="story_icon"></span>GUIDES</a></label>
+                    <input type="checkbox" id="guides-expand" name="guides-expand" class="m-menu__checkbox">
+                    <div class="m-menu">
+                        <div class="m-menu__header">
+                            <!-- Back Arrow -->
+                            <label class="m-menu__toggle" for="guides-expand">&#129128;</label>
+                            <span>GUIDES</span>
+                        </div>
+                        <ul>
+                            <li>
+                                <!-- Challenge Guides -->
+                                <label class="a-label__chevron m-menu__content" for="challenge-expand"><a><span class="character_icon"></span>CHALLENGE MODE</a></label>
+                                <input type="checkbox" id="challenge-expand" name="guides-expand" class="m-menu__checkbox">
+                                <div class="m-menu">
+                                    <div class="m-menu__header">
+                                        <!-- Back Arrow -->
+                                        <label class="m-menu__toggle" for="challenge-expand">&#129128;</label>
+                                        <span><a><span class="character_icon"></span>CHALLENGE MODE</a></span>
+                                    </div>
+                                    <ul>
+                                        <li><label><a class="m-menu__content" href="#"><span class="credits_icon"></span>SKIP COSTS</a></label></li>
+                                        <li><label><a class="m-menu__content" href="#"><span class="credits_icon"></span>FIGHT REWARDS</a></label></li>
+                                        <li><label><a class="m-menu__content" href="#"><span class="story_check_icon"></span>STRATEGIES</a></label></li>
+                                    </ul>
+                            </li>
+                            <li>
+                                <!-- Story Mode Guides -->
+                                <label class="a-label__chevron m-menu__content" for="story-expand"><a><span class="story_icon"></span>STORY MODE</a></label>
+                                <input type="checkbox" id="story-expand" name="guides-expand" class="m-menu__checkbox">
+                                <div class="m-menu">
+                                    <div class="m-menu__header">
+                                        <!-- Back Arrow -->
+                                        <label class="m-menu__toggle" for="story-expand">&#129128;</label>
+                                        <span><a><span class="story_icon"></span>STORY MODE</a></span>
+                                    </div>
+                                    <ul>
+                                        <li><label><a class="m-menu__content" href="#"><span class="credits_icon"></span>BATTLE REWARDS</a></label></li>
+                                        <li><label><a class="m-menu__content" href="#"><span class="xp_icon"></span>XP CALCULATOR</a></label></li>
+                                        <li><label><a class="m-menu__content" href="#"><span class="story_check_icon"></span>STRATEGIES</a></label></li>
+                                    </ul>
+                            </li>
+                            <li>
+                                <!-- Survivor Guides -->
+                                <label class="a-label__chevron m-menu__content" for="survivor-expand"><a><span class="survivor_icon"></span>SURVIVOR MODE</a></label>
+                                <input type="checkbox" id="survivor-expand" name="guides-expand" class="m-menu__checkbox">
+                                <div class="m-menu">
+                                    <div class="m-menu__header">
+                                        <!-- Back Arrow -->
+                                        <label class="m-menu__toggle" for="survivor-expand">&#129128;</label>
+                                        <span><a><span class="survivor_icon"></span>SURVIVOR MODE</a></span>
+                                    </div>
+                                    <ul>
+                                        <li><label><a class="m-menu__content" href="#"><span class="llt_icon"></span>WHEEL MECHANICS</a></label></li>
+                                        <li><label><a class="m-menu__content" href="#"><span class="augment_icon"></span>AUGMENTATION GUIDE</a></label></li>
+                                        <li><label><a class="m-menu__content" href="#"><span class="survivor_icon"></span>STRATEGIES</a></label></li>
+                                    </ul>
+                            </li>
+                            <li>
+                                <!-- MP Guides -->
+                                <label class="a-label__chevron m-menu__content" for="online-battles-expand"><a><span class="online_icon"></span>ONLINE BATTLES</a></label>
+                                <input type="checkbox" id="online-battles-expand" name="guides-expand" class="m-menu__checkbox">
+                                <div class="m-menu">
+                                    <div class="m-menu__header">
+                                        <!-- Back Arrow -->
+                                        <label class="m-menu__toggle" for="online-battles-expand">&#129128;</label>
+                                        <span><a><span class="online_icon"></span>ONLINE BATTLES</a></span>
+                                    </div>
+                                    <ul>
+                                        <li><label><a class="m-menu__content" href="#"><span class="small_online_icon"></span>SEASON RANKINGS</a></label></li>
+                                        <li><label><a class="m-menu__content" href="#"><span class="br_icon"></span>OFFENSE STRATEGIES</a></label></li>
+                                        <li><label><a class="m-menu__content" href="#"><span class="defense_icon"></span>DEFENSE STRATEGIES</a></label></li>
+                                    </ul>
+                            </li>
+                            <li>
+                                <!-- PZ Guides -->
+                                <label class="a-label__chevron m-menu__content" for="phantom-zone-expand"><a><span class="phantom_zone_icon"></span>PHANTOM ZONE</a></label>
+                                <input type="checkbox" id="phantom-zone-expand" name="guides-expand" class="m-menu__checkbox">
+                                <div class="m-menu">
+                                    <div class="m-menu__header">
+                                        <!-- Back Arrow -->
+                                        <label class="m-menu__toggle" for="phantom-zone-expand">&#129128;</label>
+                                        <span><a><span class="phantom_zone_icon"></span>PHANTOM ZONE</a></span>
+                                    </div>
+                                    <ul>
+                                        <li><label><a class="m-menu__content" href="#"><span class="pz_drop_icon"></span>LIST OF DROPS</a></label></li>
+                                        <li><label><a class="m-menu__content" href="#"><span class="pz_crystal_icon"></span>STRATEGIES</a></label></li>
+                                        <li><label><a class="m-menu__content" href="#"><span class="val_icon"></span>METAL UPGRADE COSTS</a></label></li>
+                                    </ul>
+                            </li>
+                            <li>
+                                <!-- Progression/Misc Guides -->
+                                <label class="a-label__chevron m-menu__content" for="game-progression-expand"><a><span class="store_icon"></span>GAME PROGRESSION</a></label>
+                                <input type="checkbox" id="game-progression-expand" name="guides-expand" class="m-menu__checkbox">
+                                <div class="m-menu">
+                                    <div class="m-menu__header">
+                                        <!-- Back Arrow -->
+                                        <label class="m-menu__toggle" for="game-progression-expand">&#129128;</label>
+                                        <span><a><span class="store_icon"></span>GAME PROGRESSION</a></span>
+                                    </div>
+                                    <ul>
+                                        <li><label><a class="m-menu__content" href="#"><span class="gold_superman_icon"></span>BEGINNER'S GUIDE</a></label></li>
+                                        <li><label><a class="m-menu__content" href="#"><span class="shards_icon"></span>GEAR GUIDE</a></label></li>
+                                    </ul>
+                            </li>
+                    </div>
+                </li>
+                <li><label><a class="m-menu__content" href="#teambuilder"><span class="collection_icon"></span>TEAM BUILDER</a></label></li>
+                <li><label><a class="m-menu__content" href="#statcalc"><span class="calculator_icon"></span>STAT CALCULATOR</a></label></li>
+                <li><label><a class="m-menu__content" href="#characters"><span class="store_icon"></span>CHARACTERS</a></label></li>
+                <li><label><a class="m-menu__content" href="#gears"><span class="gear_icon"></span>GEARS</a></label></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="challenge-wrapper">
+        <a class="challenge_ribbon">CURRENT CHALLENGE REWARD</a>
+    </div>
+    <div class="mpribbon">CURRENT MULTIPLAYER REWARD</div>
+    <div class="breakthroughribbon">CURRENT BREAKTHROUGH</div>
+    <h1>My First Heading</h1>
+    <p>My first paragraph.</p>
+</body>
+
+</html>
