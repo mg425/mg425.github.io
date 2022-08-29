@@ -1,7 +1,7 @@
 @font-face {
     /* Injustice Font */
     font-family: FuturaCondensedMedium;
-    src: url(FuturaCondensedMedium.ttf);
+    src: url(../font/FuturaCondensedMedium.ttf);
 }
 
 * {
@@ -82,6 +82,7 @@ body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     background-color: #121619;
+    border-bottom: 2px #7d868d solid;
     right: 0px;
     z-index: 5;
 }
@@ -95,6 +96,7 @@ body {
     text-decoration: underline;
     background-color: #34383b;
     border-right: 2px #7d868d solid;
+    border-top: 2px #7d868d solid;
 }
 
 .grid-content {
@@ -126,12 +128,12 @@ body {
 
 .home_icon {
     width: 2vw;
-    background: url('img/icon/home.png');
+    background: url('../img/icon/home.png');
 }
 
 .story_icon {
     width: 2.6vw;
-    background: url('img/icon/story.png');
+    background: url('../img/icon/story.png');
 }
 
 .navbar .grid-body .online_icon {
@@ -140,7 +142,7 @@ body {
 
 .online_icon {
     width: 3.6vw;
-    background: url('img/icon/online.png');
+    background: url('../img/icon/online.png');
 }
 
 .navbar .grid-body .online_icon {
@@ -149,7 +151,7 @@ body {
 
 .collection_icon {
     width: 3.2vw;
-    background: url('img/icon/collection.png');
+    background: url('../img/icon/collection.png');
 }
 
 .navbar .grid-body .collection_icon {
@@ -158,12 +160,12 @@ body {
 
 .calculator_icon {
     width: 1.5vw;
-    background: url('img/icon/calculator.png');
+    background: url('../img/icon/calculator.png');
 }
 
 .store_icon {
     width: 2.6vw;
-    background: url('img/icon/store.png');
+    background: url('../img/icon/store.png');
 }
 
 .navbar .grid-body .store_icon {
@@ -172,88 +174,88 @@ body {
 
 .gear_icon {
     width: 2.3vw;
-    background: url('img/icon/gear.png');
+    background: url('../img/icon/gear.png');
 }
 
 
 .character_icon {
     width: 1.5vw;
-    background: url('img/icon/character.png');
+    background: url('../img/icon/character.png');
 }
 
 .survivor_icon {
     width: 2vw;
-    background: url('img/icon/survivor.png');
+    background: url('../img/icon/survivor.png');
 }
 
 .phantom_zone_icon {
     width: 2vw;
-    background: url('img/icon/pz.png');
+    background: url('../img/icon/pz.png');
 }
 
 .credits_icon {
     width: 1.75vw;
-    background: url('img/icon/credit.png');
+    background: url('../img/icon/credit.png');
 }
 
 .small_online_icon {
     width: 1.75vw;
-    background: url('img/icon/online_small.png');
+    background: url('../img/icon/online_small.png');
 }
 
 .story_check_icon {
     width: 1.75vw;
-    background: url('img/icon/story_check.png');
+    background: url('../img/icon/story_check.png');
 }
 
 .llt_icon {
     width: 2vw;
-    background: url('img/icon/llt.png');
+    background: url('../img/icon/llt.png');
 }
 
 .pz_drop_icon {
     width: 2vw;
-    background: url('img/icon/pz_drop.png');
+    background: url('../img/icon/pz_drop.png');
 }
 
 .gold_superman_icon {
     width: 1.75vw;
-    background: url('img/icon/gold_superman.png');
+    background: url('../img/icon/gold_superman.png');
 }
 
 .xp_icon {
     width: 1.75vw;
-    background: url('img/icon/xp.png');
+    background: url('../img/icon/xp.png');
 }
 
 .augment_icon {
     width: 2vw;
-    background: url('img/icon/augment.png');
+    background: url('../img/icon/augment.png');
 }
 
 .br_icon {
     width: 1.75vw;
-    background: url('img/icon/br.png');
+    background: url('../img/icon/br.png');
 }
 
 .pz_crystal_icon {
     width: 2vw;
-    background: url('img/icon/pz_crystal.png');
+    background: url('../img/icon/pz_crystal.png');
 }
 
 .shards_icon {
     width: 1.75vw;
-    background: url('img/icon/shards.png');
+    background: url('../img/icon/shards.png');
 }
 
 .defense_icon {
     width: 1.75vw;
-    background: url('img/icon/defense.png');
+    background: url('../img/icon/defense.png');
 }
 
 .val_icon {
     width: 2vw;
-    background: url('img/icon/val.png');
+    background: url('../img/icon/val.png');
 }
 
 /* END Nav Bar */
@@ -356,7 +358,7 @@ body {
     display: inline-block;
     width: 25px;
     height: 30px;
-    background: url(img/icon/x.png);
+    background: url(../img/icon/x.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -366,7 +368,7 @@ body {
     display: inline-block;
     width: 25px;
     height: 25px;
-    background: url(img/icon/back_arrow.png);
+    background: url(../img/icon/back_arrow.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
