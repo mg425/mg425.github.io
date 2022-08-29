@@ -37,6 +37,8 @@ body {
 .navbar .no_expand,
 .navbar .dropdown {
     float: left;
+    /* iOS Safari fix for dropdown not showing until selection */
+    user-select: none; 
 }
 
 /* Adjust navbar button style */
@@ -46,7 +48,11 @@ body {
     text-align: left;
     padding: 0.25vw 0.5vw;
     text-decoration: none;
-    font-size: 1.75vw;
+    font-size: max(28px, 2.25vw);
+}
+
+.navbar .grid-body a {
+    font-size: 1.8vw;
 }
 
 .navbar .no_expand a:hover,
@@ -108,12 +114,16 @@ body {
 
 /* Nav Bar Icons */
 .navbar span {
-    height: 1.5vw;
+    height: 2vw;
     display: inline-block;
     margin-right: 0.3vw;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+.navbar .grid-body span {
+    height: 1.5vw;
+    margin-right: 0.5vw;
 }
 
 .home_icon {
@@ -121,19 +131,31 @@ body {
     background: url('img/icon/home.png');
 }
 
+.story_icon {
+    width: 2.6vw;
+    background: url('img/icon/story.png');
+}
+
+.navbar .grid-body .online_icon {
+    width: 2vw;
+}
+
 .online_icon {
-    width: 2.8vw;
+    width: 3.6vw;
     background: url('img/icon/online.png');
 }
 
-.survivor_icon {
-    width: 2vw;
-    background: url('img/icon/survivor.png');
+.navbar .grid-body .online_icon {
+    width: 2.8vw;
 }
 
 .collection_icon {
-    width: 2.5vw;
+    width: 3.2vw;
     background: url('img/icon/collection.png');
+}
+
+.navbar .grid-body .collection_icon {
+    width: 2.5vw;
 }
 
 .calculator_icon {
@@ -142,23 +164,28 @@ body {
 }
 
 .store_icon {
-    width: 2vw;
+    width: 2.6vw;
     background: url('img/icon/store.png');
 }
 
+.navbar .grid-body .store_icon {
+    width: 2vw;
+}
+
 .gear_icon {
-    width: 1.75vw;
+    width: 2.3vw;
     background: url('img/icon/gear.png');
 }
 
-.story_icon {
-    width: 2vw;
-    background: url('img/icon/story.png');
-}
 
 .character_icon {
     width: 1.5vw;
     background: url('img/icon/character.png');
+}
+
+.survivor_icon {
+    width: 2vw;
+    background: url('img/icon/survivor.png');
 }
 
 .phantom_zone_icon {
@@ -448,7 +475,7 @@ body {
     transition: transform 0.4s;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 950px) {
     .navbar {
         display: none;
     }
