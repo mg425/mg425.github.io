@@ -40,7 +40,8 @@ body {
 }
 
 /* Adjust navbar button style */
-.navbar a {
+.navbar a,
+.navbar .no_link {
     display: block;
     color: #fbfbfb;
     text-align: left;
@@ -49,7 +50,8 @@ body {
     font-size: max(28px, 2.25vw);
 }
 
-.navbar .grid-body a {
+.navbar .grid-body a,
+.navbar .grid-body .no_link {
     font-size: 1.8vw;
 }
 
@@ -91,7 +93,7 @@ body {
     display: contents;
 }
 
-.grid-header a {
+.grid-header .no_link {
     text-align: center;
     text-decoration: underline;
     background-color: #34383b;
@@ -107,7 +109,7 @@ body {
     border-right: 2px #7d868d solid;
 }
 
-.challenge_header a,
+.challenge_header .no_link,
 .challenge_cell a {
     border-left: 2px #7d868d solid;
 }

@@ -21,15 +21,15 @@
         <ul>
             <li class="no_expand"><a class="active" href="#home"><span class="home_icon"></span>HOME</a></li>
             <li class="no_expand"><a href="#cycles"><span class="online_icon"></span>ALL CYCLES</a></li>
-            <li class="dropdown" onclick=""><a><span class="story_icon"></span>GUIDES</a>
+            <li class="dropdown" onclick=""><div class="no_link"><span class="story_icon"></span>GUIDES</div>
                 <div class="grid-body">
                     <div class="grid-header">
-                        <label class="challenge_header"><a><span class="character_icon"></span>CHALLENGE MODE</a></label>
-                        <label class="story_header"><a><span class="story_icon"></span>STORY MODE</a></label>
-                        <label class="survivor_header"><a><span class="survivor_icon"></span>SURVIVOR MODE</a></label>
-                        <label class="online_header"><a><span class="online_icon"></span>ONLINE BATTLES</a></label>
-                        <label class="pz_header"><a><span class="phantom_zone_icon"></span>PHANTOM ZONE</a></label>
-                        <label class="progression_header"><a><span class="store_icon"></span>GAME PROGRESSION</a></label>
+                        <label class="challenge_header"><div class="no_link"><span class="character_icon"></span>CHALLENGE MODE</div></label>
+                        <label class="story_header"><div class="no_link"><span class="story_icon"></span>STORY MODE</div></label>
+                        <label class="survivor_header"><div class="no_link"><span class="survivor_icon"></span>SURVIVOR MODE</div></label>
+                        <label class="online_header"><div class="no_link"><span class="online_icon"></span>ONLINE BATTLES</div></label>
+                        <label class="pz_header"><div class="no_link"><span class="phantom_zone_icon"></span>PHANTOM ZONE</div></label>
+                        <label class="progression_header"><div class="no_link"><span class="store_icon"></span>GAME PROGRESSION</div></label>
                     </div>
                     <div class="grid-content">
                         <label class="challenge_cell"><a href="#"><span class="credits_icon"></span>Skip Costs</a></label>
@@ -78,7 +78,7 @@
                 <li><label><a class="active m-menu__content" href="#home"><span class="home_icon"></span>HOME</a></label></li>
                 <li><label><a class="m-menu__content" href="#cycles"><span class="online_icon"></span>ALL CYCLES</a></label></li>
                 <li>
-                    <label class="a-label__chevron m-menu__content" for="guides-expand"><a><span class="story_icon"></span>GUIDES</a></label>
+                    <label class="a-label__chevron m-menu__content" for="guides-expand"><div><span class="story_icon"></span>GUIDES</div></label>
                     <input type="checkbox" id="guides-expand" name="guides-expand" class="m-menu__checkbox">
                     <div class="m-menu">
                         <div class="m-menu__header">
@@ -89,13 +89,13 @@
                         <ul>
                             <li>
                                 <!-- Challenge Guides -->
-                                <label class="a-label__chevron m-menu__content" for="challenge-expand"><a><span class="character_icon"></span>CHALLENGE MODE</a></label>
+                                <label class="a-label__chevron m-menu__content" for="challenge-expand"><div><span class="character_icon"></span>CHALLENGE MODE</div></label>
                                 <input type="checkbox" id="challenge-expand" name="guides-expand" class="m-menu__checkbox">
                                 <div class="m-menu">
                                     <div class="m-menu__header">
                                         <!-- Back Arrow -->
                                         <label class="m-menu__toggle" for="challenge-expand"><span class="m-menu__back-icon"></span></label>
-                                        <span class="m-menu__submenu-name"><a><span class="character_icon"></span>CHALLENGE MODE</a></span>
+                                        <span class="m-menu__submenu-name"><div><span class="character_icon"></span>CHALLENGE MODE</div></span>
                                     </div>
                                     <ul>
                                         <li><label><a class="m-menu__content" href="#"><span class="credits_icon"></span>SKIP COSTS</a></label></li>
@@ -105,13 +105,13 @@
                             </li>
                             <li>
                                 <!-- Story Mode Guides -->
-                                <label class="a-label__chevron m-menu__content" for="story-expand"><a><span class="story_icon"></span>STORY MODE</a></label>
+                                <label class="a-label__chevron m-menu__content" for="story-expand"><div><span class="story_icon"></span>STORY MODE</div></label>
                                 <input type="checkbox" id="story-expand" name="guides-expand" class="m-menu__checkbox">
                                 <div class="m-menu">
                                     <div class="m-menu__header">
                                         <!-- Back Arrow -->
                                         <label class="m-menu__toggle" for="story-expand"><span class="m-menu__back-icon"></span></label>
-                                        <span class="m-menu__submenu-name"><a><span class="story_icon"></span>STORY MODE</a></span>
+                                        <span class="m-menu__submenu-name"><div><span class="story_icon"></span>STORY MODE</div></span>
                                     </div>
                                     <ul>
                                         <li><label><a class="m-menu__content" href="#"><span class="credits_icon"></span>BATTLE REWARDS</a></label></li>
@@ -121,13 +121,13 @@
                             </li>
                             <li>
                                 <!-- Survivor Guides -->
-                                <label class="a-label__chevron m-menu__content" for="survivor-expand"><a><span class="survivor_icon"></span>SURVIVOR MODE</a></label>
+                                <label class="a-label__chevron m-menu__content" for="survivor-expand"><div><span class="survivor_icon"></span>SURVIVOR MODE</div></label>
                                 <input type="checkbox" id="survivor-expand" name="guides-expand" class="m-menu__checkbox">
                                 <div class="m-menu">
                                     <div class="m-menu__header">
                                         <!-- Back Arrow -->
                                         <label class="m-menu__toggle" for="survivor-expand"><span class="m-menu__back-icon"></span></label>
-                                        <span class="m-menu__submenu-name"><a><span class="survivor_icon"></span>SURVIVOR MODE</a></span>
+                                        <span class="m-menu__submenu-name"><div><span class="survivor_icon"></span>SURVIVOR MODE</div></span>
                                     </div>
                                     <ul>
                                         <li><label><a class="m-menu__content" href="#"><span class="llt_icon"></span>WHEEL MECHANICS</a></label></li>
@@ -137,13 +137,13 @@
                             </li>
                             <li>
                                 <!-- MP Guides -->
-                                <label class="a-label__chevron m-menu__content" for="online-battles-expand"><a><span class="online_icon"></span>ONLINE BATTLES</a></label>
+                                <label class="a-label__chevron m-menu__content" for="online-battles-expand"><div><span class="online_icon"></span>ONLINE BATTLES</div></label>
                                 <input type="checkbox" id="online-battles-expand" name="guides-expand" class="m-menu__checkbox">
                                 <div class="m-menu">
                                     <div class="m-menu__header">
                                         <!-- Back Arrow -->
                                         <label class="m-menu__toggle" for="online-battles-expand"><span class="m-menu__back-icon"></span></label>
-                                        <span class="m-menu__submenu-name"><a><span class="online_icon"></span>ONLINE BATTLES</a></span>
+                                        <span class="m-menu__submenu-name"><div><span class="online_icon"></span>ONLINE BATTLES</div></span>
                                     </div>
                                     <ul>
                                         <li><label><a class="m-menu__content" href="#"><span class="small_online_icon"></span>SEASON RANKINGS</a></label></li>
@@ -153,13 +153,13 @@
                             </li>
                             <li>
                                 <!-- PZ Guides -->
-                                <label class="a-label__chevron m-menu__content" for="phantom-zone-expand"><a><span class="phantom_zone_icon"></span>PHANTOM ZONE</a></label>
+                                <label class="a-label__chevron m-menu__content" for="phantom-zone-expand"><div><span class="phantom_zone_icon"></span>PHANTOM ZONE</div></label>
                                 <input type="checkbox" id="phantom-zone-expand" name="guides-expand" class="m-menu__checkbox">
                                 <div class="m-menu">
                                     <div class="m-menu__header">
                                         <!-- Back Arrow -->
                                         <label class="m-menu__toggle" for="phantom-zone-expand"><span class="m-menu__back-icon"></span></label>
-                                        <span class="m-menu__submenu-name"><a><span class="phantom_zone_icon"></span>PHANTOM ZONE</a></span>
+                                        <span class="m-menu__submenu-name"><div><span class="phantom_zone_icon"></span>PHANTOM ZONE</div></span>
                                     </div>
                                     <ul>
                                         <li><label><a class="m-menu__content" href="#"><span class="pz_drop_icon"></span>LIST OF DROPS</a></label></li>
@@ -169,13 +169,13 @@
                             </li>
                             <li>
                                 <!-- Progression/Misc Guides -->
-                                <label class="a-label__chevron m-menu__content" for="game-progression-expand"><a><span class="store_icon"></span>GAME PROGRESSION</a></label>
+                                <label class="a-label__chevron m-menu__content" for="game-progression-expand"><div><span class="store_icon"></span>GAME PROGRESSION</div></label>
                                 <input type="checkbox" id="game-progression-expand" name="guides-expand" class="m-menu__checkbox">
                                 <div class="m-menu">
                                     <div class="m-menu__header">
                                         <!-- Back Arrow -->
                                         <label class="m-menu__toggle" for="game-progression-expand"><span class="m-menu__back-icon"></span></label>
-                                        <span class="m-menu__submenu-name"><a><span class="store_icon"></span>GAME PROGRESSION</a></span>
+                                        <span class="m-menu__submenu-name"><div><span class="store_icon"></span>GAME PROGRESSION</div></span>
                                     </div>
                                     <ul>
                                         <li><label><a class="m-menu__content" href="#"><span class="gold_superman_icon"></span>BEGINNER'S GUIDE</a></label></li>
