@@ -37,8 +37,6 @@ body {
 .navbar .no_expand,
 .navbar .dropdown {
     float: left;
-    /* iOS Safari fix for dropdown not showing until selection */
-    user-select: none; 
 }
 
 /* Adjust navbar button style */
