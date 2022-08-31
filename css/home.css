@@ -1,0 +1,109 @@
+body {
+    background-color: #010310;
+    height: 4000px;
+}
+
+/* Challenge/BT Display */
+
+.chal_bt-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    padding: 0px 3vw;
+    column-gap: 4vw;
+    color: white;
+    font-family: FuturaCondensedMedium;
+}
+
+.chal_bt-header {
+    background-color: #163baa;
+    font-size: max(28px, 2.25vw);
+    text-align: center;
+}
+
+.chal-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.chal-subheader {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #242077;
+    color: #86abed;
+    font-size: max(20px, 1.75vw);
+}
+
+.chal-wrapper_left {
+    border-right: 2px solid #7d868d;
+}
+
+.character-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5px;
+}
+
+.base_stats-container,
+.max_stats-container {
+    text-align: center;
+    position: relative;
+    font-family: FuturaCondensedLight;
+}
+
+.character-wrapper img {
+    width: 70%;
+}
+
+.character-wrapper .damage_icon,
+.character-wrapper .health_icon {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.character-wrapper .elite {
+    position: absolute;
+    font-size: 1.4vw;
+    color: #f0f0f0;
+    top: -0.5%;
+    left: 16.5%;
+}
+
+.character-wrapper .level {
+    position: absolute;
+    font-size: 1.4vw;
+    color: #f0f0f0;
+    top: -0.5%;
+    right: 17%;
+}
+
+.character-wrapper .damage_icon {
+    bottom: 14%;
+    left: 16%;
+    width: 0.6vw;
+}
+
+.character-wrapper .damage {
+    position: absolute;
+    font-size: 0.85vw;
+    color: #7090e0;
+    bottom: 12.9%;
+    left: 22.5%;
+}
+
+.character-wrapper .health_icon {
+    bottom: 14%;
+    left: 39.3%;
+    width: 0.75vw;
+}
+
+.character-wrapper .health {
+    position: absolute;
+    font-size: 0.85vw;
+    color: #e90406;
+    bottom: 12.9%;
+    left: 46.5%;
+}

@@ -3,15 +3,14 @@
     font-family: FuturaCondensedMedium;
     src: url(../font/FuturaCondensedMedium.ttf);
 }
+@font-face {
+    font-family: FuturaCondensedMediumBT;
+    src: url(../font/FuturaCondensedMediumBT.ttf);
+}
 
 * {
     margin: 0px;
     padding: 0px;
-}
-
-body {
-    background-color: black;
-    height: 4000px;
 }
 
 /* IGAU Banner */
@@ -24,6 +23,7 @@ body {
 .navbar {
     position: sticky;
     top: 0px;
+    z-index: 10;
 }
 
 .navbar ul {
@@ -87,7 +87,7 @@ body {
     border-bottom: 2px #7d868d solid;
     border-left: 2px #7d868d solid;
     right: 0px;
-    z-index: 5;
+    z-index: 10;
 }
 
 .grid-header {
@@ -289,7 +289,7 @@ body {
     width: calc(100vw - 60px);
     max-width: 300px;
     height: 100%;
-    z-index: 5;
+    z-index: 10;
     overflow: hidden;
     background-color: #121619;
     font-family: FuturaCondensedMedium;
@@ -303,7 +303,7 @@ body {
     left: 0;
     width: 100%;
     bottom: 0;
-    z-index: 5;
+    z-index: 10;
     display: none;
 }
 

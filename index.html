@@ -7,6 +7,7 @@
     <link rel="icon" href="img/icon/game_favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 
 <body>
@@ -89,12 +90,12 @@
                         <ul>
                             <li>
                                 <!-- Challenge Guides -->
-                                <label class="a-label__chevron m-menu__content" for="challenge-expand"><div><span class="character_icon"></span>CHALLENGE MODE</div></label>
-                                <input type="checkbox" id="challenge-expand" name="guides-expand" class="m-menu__checkbox">
+                                <label class="a-label__chevron m-menu__content" for="chal-expand"><div><span class="character_icon"></span>CHALLENGE MODE</div></label>
+                                <input type="checkbox" id="chal-expand" name="guides-expand" class="m-menu__checkbox">
                                 <div class="m-menu">
                                     <div class="m-menu__header">
                                         <!-- Back Arrow -->
-                                        <label class="m-menu__toggle" for="challenge-expand"><span class="m-menu__back-icon"></span></label>
+                                        <label class="m-menu__toggle" for="chal-expand"><span class="m-menu__back-icon"></span></label>
                                         <span class="m-menu__submenu-name"><div><span class="character_icon"></span>CHALLENGE MODE</div></span>
                                     </div>
                                     <ul>
@@ -192,112 +193,117 @@
         </div>
     </nav>
 
-    <div class="challenge-wrapper">
-        <span class="challenge-header">CHALLENGE</span>
-        <div class="challenge-wrapper_left">
-            <span class="challenge-subheader">CURRENT</span>
-            <div class="character-wrapper">
-                <div class="base_stats-container">
-                    <img class="base_stats" src="img/character/Aquaman_Prime.png" alt="Challenge Character Base Stats">
-                    <div class="base_level">1</div>
-                    <div class="base_damage">8,888</div>
-                    <div class="base_health">8,888</div>
-                </div>
-                <div class="max_stats-container">
-                    <img class="max_stats" src="img/character/Aquaman_Prime.png" alt="Challenge Character Max Stats">
-                    <div class="max_elite">X</div>
-                    <div class="max_level">60</div>
-                    <div class="aug_overlay">
-                        <!-- Colors: 
-                            Damage/Health Text: 677a9b
-                            MAXED Text: fbfbfb
-                            Background: 1e2e62
-                        -->
+    <div class="chal_bt-grid">
+        <span class="chal_bt-header">CHALLENGE</span>
+        <span class="chal_bt-header">BREAKTHROUGH</span>
+        <div class="chal-wrapper">
+            <div class="chal-wrapper_left">
+                <span class="chal-subheader">Current</span>
+                <div class="character-wrapper">
+                    <div class="base_stats-container">
+                        <img class="base_stats" src="img/character/Aquaman_Prime.png" alt="Challenge Character Base Stats">
+                        <img class="damage_icon" src="img/icon/damage.png" alt="DMG">
+                        <img class="health_icon" src="img/icon/health.png" alt="HP">
+                        <div class="level">1</div>
+                        <div class="damage">8,888</div>
+                        <div class="health">8,888</div>
                     </div>
-                    <div class="max_damage">888k</div>
-                    <div class="max_health">888k</div>
+                    <div class="max_stats-container">
+                        <img class="max_stats" src="img/character/Aquaman_Injustice_2.png" alt="Challenge Character Max Stats">
+                        <img class="damage_icon" src="img/icon/damage.png" alt="DMG">
+                        <img class="health_icon" src="img/icon/health.png" alt="HP">
+                        <div class="elite">X</div>
+                        <div class="level">60</div>
+                        <div class="aug_overlay">
+                            <!-- Colors: 
+                                Damage/Health Text: 677a9b
+                                MAXED Text: fbfbfb
+                                Background: 1e2e62
+                            -->
+                        </div>
+                        <div class="damage">888K</div>
+                        <div class="health">888K</div>
+                    </div>
                 </div>
-                <img class="max_stats" src="img/character/Aquaman_Prime.png">
+                <span class="reqs-header">REQUIREMENTS</span>
+                <ul class="reqs-list">
+                    <li>Insurgency Character</li>
+                    <li>Insurgency Character</li>
+                    <li>Insurgency Character</li>
+                </ul>
+                <a href="#">Stat Calculator</a>
+                <a href="#">Character Info</a>
             </div>
-            <span class="reqs-header">REQUIREMENTS</span>
-            <ul class="reqs-list">
-                <li>Insurgency Character</li>
-                <li>Insurgency Character</li>
-                <li>Insurgency Character</li>
-            </ul>
-            <a href="#">Stat Calculator</a>
-            <a href="#">Character Info</a>
-        </div>
-        <div class="challenge-wrapper_right">
-            <span class="challenge-subheader">UPCOMING</span>
-            <span class="upcoming_chal">Aquaman/Prime</span>
-            <ul class="reqs-list">
-                <li class="curr_chal_req">Insurgency Character</li>
-                <li class="curr_chal_req">Insurgency Character</li>
-                <li class="curr_chal_req">Insurgency Character</li>
-            </ul>
-            <span class="upcoming_chal">Aquaman/Prime</span>
-            <ul class="reqs-list">
-                <li class="curr_chal_req">Insurgency Character</li>
-                <li class="curr_chal_req">Insurgency Character</li>
-                <li class="curr_chal_req">Insurgency Character</li>
-            </ul>
-            <span class="upcoming_chal">Aquaman/Prime</span>
-            <ul class="reqs-list">
-                <li class="curr_chal_req">Insurgency Character</li>
-                <li class="curr_chal_req">Insurgency Character</li>
-                <li class="curr_chal_req">Insurgency Character</li>
-            </ul>
-            <a href="#">Full Cycle</a>
-            <a href="#">Unlock Requirements</a>
-        </div>
-    </div>
-    <div class="breakthrough-wrapper">
-        <span class="breakthrough-header">BREAKTHROUGH</span>
-        <div class="breakthrough-wrapper_left">
-            <span class="breakthrough-subheader">CURRENT WEEK</span>
-            <span class="date">Mon, Feb 30</span>
-            <span class="bt_chars">Bronze Characters</span>
-            <span class="date">Tue, Feb 30</span>
-            <span class="bt_chars">Silver Characters</span>
-            <span class="date">Wed, Feb 30</span>
-            <span class="bt_chars">Bronze Characters</span>
-            <span class="date">Thu, Feb 30</span>
-            <span class="bt_chars">Silver Characters</span>
-            <div class="gold_bt">
-                <span class="gold_bt_date">
-                    Fri, Feb 30\n
-                    Sat, Feb 30\n
-                    Sun, Feb 30\n
-                </span>
-                <span class="gold_bt_chars">
-                    Martian Manhunter\n
-                    Martian Manhunter\n
-                    Martian Manhunter\n
-                </span>
+            <div class="chal-wrapper_right">
+                <span class="chal-subheader">Upcoming</span>
+                <span class="upcoming_chal">Aquaman/Prime</span>
+                <ul class="reqs-list">
+                    <li class="curr_chal_req">Insurgency Character</li>
+                    <li class="curr_chal_req">Insurgency Character</li>
+                    <li class="curr_chal_req">Insurgency Character</li>
+                </ul>
+                <span class="upcoming_chal">Aquaman/Prime</span>
+                <ul class="reqs-list">
+                    <li class="curr_chal_req">Insurgency Character</li>
+                    <li class="curr_chal_req">Insurgency Character</li>
+                    <li class="curr_chal_req">Insurgency Character</li>
+                </ul>
+                <span class="upcoming_chal">Aquaman/Prime</span>
+                <ul class="reqs-list">
+                    <li class="curr_chal_req">Insurgency Character</li>
+                    <li class="curr_chal_req">Insurgency Character</li>
+                    <li class="curr_chal_req">Insurgency Character</li>
+                </ul>
+                <a href="#">Full Cycle</a>
+                <a href="#">Unlock Requirements</a>
             </div>
         </div>
-        <div class="breakthrough-wrapper_right">
-            <span class="breakthrough-subheader">NEXT WEEK</span>
-            <span class="date">Mon, Feb 30</span>
-            <span class="bt_chars">Bronze Characters</span>
-            <span class="date">Tue, Feb 30</span>
-            <span class="bt_chars">Silver Characters</span>
-            <span class="date">Wed, Feb 30</span>
-            <span class="bt_chars">Bronze Characters</span>
-            <span class="date">Thu, Feb 30</span>
-            <span class="bt_chars">Silver Characters</span>
-            <div class="gold_bt">
-                <span class="gold_bt_date">
-                    Fri, Feb 30\n
-                    Sat, Feb 30\n
-                    Sun, Feb 30\n
-                </span>
-                <span class="gold_bt_chars">
-                    Martian Manhunter\n
-                    Martian Manhunter\n
-                    Martian Manhunter\n
-                </span>
+        <div class="bt-wrapper">
+            <div class="bt-wrapper_left">
+                <span class="bt-subheader">CURRENT WEEK</span>
+                <span class="date">Mon, Feb 30</span>
+                <span class="bt_chars">Bronze Characters</span>
+                <span class="date">Tue, Feb 30</span>
+                <span class="bt_chars">Silver Characters</span>
+                <span class="date">Wed, Feb 30</span>
+                <span class="bt_chars">Bronze Characters</span>
+                <span class="date">Thu, Feb 30</span>
+                <span class="bt_chars">Silver Characters</span>
+                <div class="gold_bt">
+                    <span class="gold_bt_date">
+                        Fri, Feb 30<br/>
+                        Sat, Feb 30<br/>
+                        Sun, Feb 30<br/>
+                    </span>
+                    <span class="gold_bt_chars">
+                        Martian Manhunter<br/>
+                        Martian Manhunter<br/>
+                        Martian Manhunter<br/>
+                    </span>
+                </div>
+            </div>
+            <div class="bt-wrapper_right">
+                <span class="bt-subheader">NEXT WEEK</span>
+                <span class="date">Mon, Feb 30</span>
+                <span class="bt_chars">Bronze Characters</span>
+                <span class="date">Tue, Feb 30</span>
+                <span class="bt_chars">Silver Characters</span>
+                <span class="date">Wed, Feb 30</span>
+                <span class="bt_chars">Bronze Characters</span>
+                <span class="date">Thu, Feb 30</span>
+                <span class="bt_chars">Silver Characters</span>
+                <div class="gold_bt">
+                    <span class="gold_bt_date">
+                        Fri, Feb 30<br/>
+                        Sat, Feb 30<br/>
+                        Sun, Feb 30<br/>
+                    </span>
+                    <span class="gold_bt_chars">
+                        Martian Manhunter<br/>
+                        Martian Manhunter<br/>
+                        Martian Manhunter<br/>
+                    </span>
+                </div>
             </div>
         </div>
     </div>
