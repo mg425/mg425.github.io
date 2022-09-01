@@ -194,27 +194,29 @@
     </nav>
 
     <div class="chal_bt-grid">
-        <span class="chal_bt-header">CHALLENGE</span>
-        <span class="chal_bt-header">BREAKTHROUGH</span>
+        <div class="chal_bt-header"><span>CHALLENGE</span></div>
+        <div class="chal_bt-header"><span>BREAKTHROUGH</span></div>
         <div class="chal-wrapper">
             <div class="chal-wrapper_left">
                 <span class="chal-subheader">Current</span>
                 <div class="character-wrapper">
-                    <div class="base_stats-container">
-                        <img class="base_stats" src="img/character/Aquaman_Prime.png" alt="Challenge Character Base Stats">
+                    <div class="card-container">
+                        <img id="base_stats" src="img/character/Aquaman_Prime.png" alt="Challenge Character Base Stats">
                         <img class="damage_icon" src="img/icon/damage.png" alt="DMG">
                         <img class="health_icon" src="img/icon/health.png" alt="HP">
                         <div class="level">1</div>
                         <div class="damage">8,888</div>
                         <div class="health">8,888</div>
                     </div>
-                    <div class="max_stats-container">
-                        <img class="max_stats" src="img/character/Aquaman_Injustice_2.png" alt="Challenge Character Max Stats">
+                    <div class="card-container">
+                        <img id="max_stats" src="img/character/Aquaman_Prime.png" alt="Challenge Character Max Stats">
                         <img class="damage_icon" src="img/icon/damage.png" alt="DMG">
                         <img class="health_icon" src="img/icon/health.png" alt="HP">
                         <div class="elite">X</div>
                         <div class="level">60</div>
-                        <div class="aug_overlay">
+                        <div class="aug-overlay">
+                            Damage <span class="max_aug">MAXED</span><br/>
+                            Health <span class="max_aug">MAXED</span>
                             <!-- Colors: 
                                 Damage/Health Text: 677a9b
                                 MAXED Text: fbfbfb
@@ -225,37 +227,49 @@
                         <div class="health">888K</div>
                     </div>
                 </div>
+                <div class="expire-container">Expires: <span id="chal_exp">8d 88h 88m</span></div>
                 <span class="reqs-header">REQUIREMENTS</span>
                 <ul class="reqs-list">
-                    <li>Insurgency Character</li>
-                    <li>Insurgency Character</li>
-                    <li>Insurgency Character</li>
+                    <li>&#x2022; Insurgency Character</li>
+                    <li>&#x2022; Insurgency Character</li>
+                    <li>&#x2022; Insurgency Character</li>
                 </ul>
                 <a href="#">Stat Calculator</a>
                 <a href="#">Character Info</a>
             </div>
             <div class="chal-wrapper_right">
                 <span class="chal-subheader">Upcoming</span>
-                <span class="upcoming_chal">Aquaman/Prime</span>
-                <ul class="reqs-list">
-                    <li class="curr_chal_req">Insurgency Character</li>
-                    <li class="curr_chal_req">Insurgency Character</li>
-                    <li class="curr_chal_req">Insurgency Character</li>
-                </ul>
-                <span class="upcoming_chal">Aquaman/Prime</span>
-                <ul class="reqs-list">
-                    <li class="curr_chal_req">Insurgency Character</li>
-                    <li class="curr_chal_req">Insurgency Character</li>
-                    <li class="curr_chal_req">Insurgency Character</li>
-                </ul>
-                <span class="upcoming_chal">Aquaman/Prime</span>
-                <ul class="reqs-list">
-                    <li class="curr_chal_req">Insurgency Character</li>
-                    <li class="curr_chal_req">Insurgency Character</li>
-                    <li class="curr_chal_req">Insurgency Character</li>
-                </ul>
+                <div class="upcoming_chals-wrapper">
+                    <span class="upcoming_chal_icon"></span>
+                    <div class="upcoming_chal_info">
+                        <span class="upcoming_chal">Martian Manhunter/Blackest Night</span>
+                        <ul class="reqs-list">
+                            <li class="chal_req">&#x2022; Insurgency Character</li>
+                            <li class="chal_req">&#x2022; Insurgency Character</li>
+                            <li class="chal_req">&#x2022; Insurgency Character</li>
+                        </ul>
+                    </div>
+                    <span class="upcoming_chal_icon"></span>
+                    <div class="upcoming_chal_info">
+                        <span class="upcoming_chal">Martian Manhunter/Blackest Night</span>
+                        <ul class="reqs-list">
+                            <li class="chal_req">&#x2022; Insurgency Character</li>
+                            <li class="chal_req">&#x2022; Insurgency Character</li>
+                            <li class="chal_req">&#x2022; Insurgency Character</li>
+                        </ul>
+                    </div>
+                    <span class="upcoming_chal_icon"></span>
+                    <div class="upcoming_chal_info">
+                        <span class="upcoming_chal">Martian Manhunter/Blackest Night</span>
+                        <ul class="reqs-list">
+                            <li class="chal_req">&#x2022; Insurgency Character</li>
+                            <li class="chal_req">&#x2022; Insurgency Character</li>
+                            <li class="chal_req">&#x2022; Insurgency Character</li>
+                        </ul>
+                    </div>
+                </div>
                 <a href="#">Full Cycle</a>
-                <a href="#">Unlock Requirements</a>
+                <a href="#">Unlock Reqs</a>
             </div>
         </div>
         <div class="bt-wrapper">

@@ -3,22 +3,29 @@ body {
     height: 4000px;
 }
 
-/* Challenge/BT Display */
+/* Challenge/MP Display */
 
 .chal_bt-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 20px;
-    padding: 0px 3vw;
+    padding: 0 3vw;
     column-gap: 4vw;
     color: white;
     font-family: FuturaCondensedMedium;
 }
 
 .chal_bt-header {
-    background-color: #163baa;
+    background: linear-gradient(to bottom, #052a99, #274cbb 40%, #274cbb 60%, #052a99 100%);
+    padding: 1% 0;
     font-size: max(28px, 2.25vw);
     text-align: center;
+    transform: skew(-10deg);
+}
+
+.chal_bt-header span {
+    display: inline-block;
+    transform: skew(10deg);
 }
 
 .chal-wrapper {
@@ -30,13 +37,24 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background-color: #242077;
-    color: #86abed;
-    font-size: max(20px, 1.75vw);
+    align-content: center;
+    background: linear-gradient(to bottom, #131166, #353188 40%, #353188 60%, #131166 100%);
+    padding: 2% 0px;
+    margin: 0 0 2.5% 0;
+    -webkit-border-radius: 3% / 30%;
+    -moz-border-radius: 3% / 30%;
+    border-radius: 3% / 30%;
+    font-size: max(24px, 2vw);
 }
 
-.chal-wrapper_left {
-    border-right: 2px solid #7d868d;
+.chal-wrapper_left,
+.chal-wrapper_right {
+    width: 95%;
+    margin: 2.5% 2.5% 0 2.5%;
+    border-left: 2px solid #242077;
+    border-right: 2px solid #242077;
+    border-bottom: 2px solid #242077;
+    border-radius: 5%;
 }
 
 .character-wrapper {
@@ -45,15 +63,16 @@ body {
     margin-top: 5px;
 }
 
-.base_stats-container,
-.max_stats-container {
+.card-container {
     text-align: center;
     position: relative;
-    font-family: FuturaCondensedLight;
+    font-family: FuturaCondensedMediumBT;
 }
 
 .character-wrapper img {
-    width: 70%;
+    width: 80%;
+    height: 100%;
+    text-align: left;
 }
 
 .character-wrapper .damage_icon,
@@ -66,44 +85,132 @@ body {
 
 .character-wrapper .elite {
     position: absolute;
-    font-size: 1.4vw;
+    font-size: 1.5vw;
     color: #f0f0f0;
     top: -0.5%;
-    left: 16.5%;
+    left: 12%;
 }
 
 .character-wrapper .level {
     position: absolute;
-    font-size: 1.4vw;
+    font-size: 1.5vw;
     color: #f0f0f0;
     top: -0.5%;
-    right: 17%;
+    right: 12%;
 }
 
 .character-wrapper .damage_icon {
-    bottom: 14%;
-    left: 16%;
-    width: 0.6vw;
+    bottom: 13.5%;
+    left: 11%;
+    width: 0.7vw;
+    height: fit-content;
 }
 
 .character-wrapper .damage {
     position: absolute;
-    font-size: 0.85vw;
-    color: #7090e0;
-    bottom: 12.9%;
-    left: 22.5%;
+    bottom: 12%;
+    left: 18.5%;
+    font-size: 0.95vw;
+    text-align: left;
+    color: #6080d0;
 }
 
 .character-wrapper .health_icon {
-    bottom: 14%;
-    left: 39.3%;
-    width: 0.75vw;
+    bottom: 13.5%;
+    left: 37.7%;
+    width: 0.87vw;
+    height: fit-content;
 }
 
 .character-wrapper .health {
     position: absolute;
-    font-size: 0.85vw;
-    color: #e90406;
-    bottom: 12.9%;
-    left: 46.5%;
+    bottom: 12%;
+    left: 46%;
+    font-size: 0.95vw;
+    text-align: left;
+    color: #d80305;
+}
+
+.card-container .aug-overlay {
+    position: absolute;
+    display: block;
+    background-color: #192750;
+    width: 65%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    right: 10%;
+    left: 14%;
+    bottom: 45%;
+    font-size: 1.2vw;
+    text-align: right;
+    color: #677a9b;
+}
+
+.card-container .max_aug {
+    display: inline-block;
+    color: #f0f0f0;
+    margin-left: 2%;
+}
+
+.chal-wrapper .expire-container {
+    display: block;
+    width: 100%;
+    margin: 2% 5%;
+    font-size: max(20px, 1.5vw);
+}
+
+.chal-wrapper .upcoming_chals-wrapper {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    column-gap: 3%;
+    row-gap: 10%;
+    height: 71%;
+}
+
+.chal-wrapper .reqs-header {
+    display: inline-block;
+    width: 100%;
+    margin: 0% 5%;
+    font-size: max(18px, 1.4vw);
+    text-decoration: underline;
+}
+
+.chal-wrapper .reqs-list {
+    display: inline-block;
+    width: 100%;
+    margin: 0% 5%;
+    font-size: max(14px, 1.2vw);
+    list-style: none;
+}
+
+
+
+.chal-wrapper .upcoming_chal_icon {
+    margin-left: 5%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/character/icon/Aquaman_Prime.png");
+}
+
+.chal-wrapper .upcoming_chal {
+    display: block;
+    width: 100%;
+    font-size: max(14px, 1.4vw);
+}
+
+.chal-wrapper a {
+    display: inline-block;
+    position: relative;
+    bottom: 0%;
+    width: 35%;
+    margin: 5% 2.5%;
+    padding: 3%;
+    background-color: #131166;
+    text-decoration: none;
+    text-align: center;
+    font-size: max(16px, 1.6vw);
+    color: #97bcfe;
+    left: 4%;
 }
