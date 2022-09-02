@@ -193,53 +193,48 @@
         </div>
     </nav>
 
-    <div class="chal_bt-grid">
-        <div class="chal_bt-header"><span>CHALLENGE</span></div>
-        <div class="chal_bt-header"><span>BREAKTHROUGH</span></div>
+    <div class="chal_mp-grid">
+        <div class="chal_mp-header"><span>CHALLENGE</span></div>
+        <div class="chal_mp-header"><span>ONLINE BATTLES</span></div>
         <div class="chal-wrapper">
             <div class="chal-wrapper_left">
-                <span class="chal-subheader">Current</span>
-                <div class="character-wrapper">
-                    <div class="card-container">
-                        <img id="base_stats" src="img/character/Aquaman_Prime.png" alt="Challenge Character Base Stats">
-                        <img class="damage_icon" src="img/icon/damage.png" alt="DMG">
-                        <img class="health_icon" src="img/icon/health.png" alt="HP">
-                        <div class="level">1</div>
-                        <div class="damage">8,888</div>
-                        <div class="health">8,888</div>
+                <span class="chal-subheader">Current Reward</span>
+                <div class="card-container">
+                    <img id="base_stats" src="img/character/Aquaman_Prime.png" alt="Challenge Character Base Stats">
+                    <img class="damage_icon" src="img/icon/damage.png" alt="DMG">
+                    <img class="health_icon" src="img/icon/health.png" alt="HP">
+                    <div class="level">1</div>
+                    <div class="damage">8,888</div>
+                    <div class="health">8,888</div>
+                </div>
+                <div class="card-container">
+                    <img id="max_stats" src="img/character/Aquaman_Prime.png" alt="Challenge Character Max Stats">
+                    <img class="damage_icon" src="img/icon/damage.png" alt="DMG">
+                    <img class="health_icon" src="img/icon/health.png" alt="HP">
+                    <div class="elite">X</div>
+                    <div class="level">60</div>
+                    <div class="aug-overlay">
+                        Damage <span class="max_aug">MAXED</span><br/>
+                        Health <span class="max_aug">MAXED</span>
                     </div>
-                    <div class="card-container">
-                        <img id="max_stats" src="img/character/Aquaman_Prime.png" alt="Challenge Character Max Stats">
-                        <img class="damage_icon" src="img/icon/damage.png" alt="DMG">
-                        <img class="health_icon" src="img/icon/health.png" alt="HP">
-                        <div class="elite">X</div>
-                        <div class="level">60</div>
-                        <div class="aug-overlay">
-                            Damage <span class="max_aug">MAXED</span><br/>
-                            Health <span class="max_aug">MAXED</span>
-                            <!-- Colors: 
-                                Damage/Health Text: 677a9b
-                                MAXED Text: fbfbfb
-                                Background: 1e2e62
-                            -->
-                        </div>
-                        <div class="damage">888K</div>
-                        <div class="health">888K</div>
-                    </div>
+                    <div class="damage">888K</div>
+                    <div class="health">888K</div>
                 </div>
                 <div class="expire-container">Expires: <span id="chal_exp">8d 88h 88m</span></div>
-                <span class="reqs-header">REQUIREMENTS</span>
-                <ul class="reqs-list">
-                    <li>&#x2022; Insurgency Character</li>
-                    <li>&#x2022; Insurgency Character</li>
-                    <li>&#x2022; Insurgency Character</li>
-                </ul>
+                <div class="reqs-wrapper">
+                    <span class="reqs-header">REQUIREMENTS</span>
+                    <ul class="reqs-list">
+                        <li>&#x2022; Insurgency Character</li>
+                        <li>&#x2022; Insurgency Character</li>
+                        <li>&#x2022; Insurgency Character</li>
+                    </ul>
+                </div>
                 <a href="#">Stat Calculator</a>
                 <a href="#">Character Info</a>
             </div>
             <div class="chal-wrapper_right">
-                <span class="chal-subheader">Upcoming</span>
-                <div class="upcoming_chals-wrapper">
+                <span class="chal-subheader">Upcoming Rewards</span>
+                <div class="upcoming_chal-wrapper">
                     <span class="upcoming_chal_icon"></span>
                     <div class="upcoming_chal_info">
                         <span class="upcoming_chal">Martian Manhunter/Blackest Night</span>
@@ -249,6 +244,8 @@
                             <li class="chal_req">&#x2022; Insurgency Character</li>
                         </ul>
                     </div>
+                </div>
+                <div class="upcoming_chal-wrapper">
                     <span class="upcoming_chal_icon"></span>
                     <div class="upcoming_chal_info">
                         <span class="upcoming_chal">Martian Manhunter/Blackest Night</span>
@@ -258,6 +255,8 @@
                             <li class="chal_req">&#x2022; Insurgency Character</li>
                         </ul>
                     </div>
+                </div>
+                <div class="upcoming_chal-wrapper">
                     <span class="upcoming_chal_icon"></span>
                     <div class="upcoming_chal_info">
                         <span class="upcoming_chal">Martian Manhunter/Blackest Night</span>
@@ -272,55 +271,137 @@
                 <a href="#">Unlock Reqs</a>
             </div>
         </div>
-        <div class="bt-wrapper">
-            <div class="bt-wrapper_left">
-                <span class="bt-subheader">CURRENT WEEK</span>
-                <span class="date">Mon, Feb 30</span>
-                <span class="bt_chars">Bronze Characters</span>
-                <span class="date">Tue, Feb 30</span>
-                <span class="bt_chars">Silver Characters</span>
-                <span class="date">Wed, Feb 30</span>
-                <span class="bt_chars">Bronze Characters</span>
-                <span class="date">Thu, Feb 30</span>
-                <span class="bt_chars">Silver Characters</span>
-                <div class="gold_bt">
-                    <span class="gold_bt_date">
-                        Fri, Feb 30<br/>
-                        Sat, Feb 30<br/>
-                        Sun, Feb 30<br/>
-                    </span>
-                    <span class="gold_bt_chars">
-                        Martian Manhunter<br/>
-                        Martian Manhunter<br/>
-                        Martian Manhunter<br/>
-                    </span>
+        <div class="mp-wrapper">
+            <div class="mp-wrapper_left">
+                <span class="mp-subheader">Current Reward</span>
+                <div class="card-container">
+                    <img id="base_stats" src="img/character/Aquaman_Prime.png" alt="MP Character Base Stats">
+                    <img class="damage_icon" src="img/icon/damage.png" alt="DMG">
+                    <img class="health_icon" src="img/icon/health.png" alt="HP">
+                    <div class="level">1</div>
+                    <div class="damage">8,888</div>
+                    <div class="health">8,888</div>
                 </div>
+                <div class="card-container">
+                    <img id="max_stats" src="img/character/Aquaman_Prime.png" alt="MP Character Max Stats">
+                    <img class="damage_icon" src="img/icon/damage.png" alt="DMG">
+                    <img class="health_icon" src="img/icon/health.png" alt="HP">
+                    <div class="elite">X</div>
+                    <div class="level">60</div>
+                    <div class="aug-overlay">
+                        Damage <span class="max_aug">MAXED</span><br/>
+                        Health <span class="max_aug">MAXED</span>
+                    </div>
+                    <div class="damage">888K</div>
+                    <div class="health">888K</div>
+                </div>
+                <div class="expire-container">
+                    Android Season Expires: <span id="mp_android_exp">8d 88h 88m</span><br/>
+                    iOS Season Expires: <span id="mp_ios_exp">8d 88h 88m</span>
+                </div>
+                <a href="#">MP Guide</a>
+                <a href="#">Reward Info</a>
+                <a href="#">Full Cycle</a>
+                <a href="#">All Cutoffs</a>
+        </div>
+        <div class="mp-wrapper_right">
+            <span class="mp-subheader">Past Cutoffs, Future Rewards</span>
+            <div class="cutoff-table">
+                <div class="mp-subsubheader">Android</div>
+                <span class="top1per_icon"></span>
+                <span>1%</span>
+                <span class="android_cutoff">8,888,888</span>
+                <span class="top2per_icon"></span>
+                <span>2%</span>
+                <span class="android_cutoff">8,888,888</span>
+                <span class="top3per_icon"></span>
+                <span>3%</span>
+                <span class="android_cutoff">8,888,888</span>
+                <span class="top4per_icon"></span>
+                <span>4%</span>
+                <span class="android_cutoff">888,888</span>
+                <span class="top5per_icon"></span>
+                <span>5%</span>
+                <span class="android_cutoff">888,888</span>
             </div>
-            <div class="bt-wrapper_right">
-                <span class="bt-subheader">NEXT WEEK</span>
-                <span class="date">Mon, Feb 30</span>
-                <span class="bt_chars">Bronze Characters</span>
-                <span class="date">Tue, Feb 30</span>
-                <span class="bt_chars">Silver Characters</span>
-                <span class="date">Wed, Feb 30</span>
-                <span class="bt_chars">Bronze Characters</span>
-                <span class="date">Thu, Feb 30</span>
-                <span class="bt_chars">Silver Characters</span>
-                <div class="gold_bt">
-                    <span class="gold_bt_date">
-                        Fri, Feb 30<br/>
-                        Sat, Feb 30<br/>
-                        Sun, Feb 30<br/>
-                    </span>
-                    <span class="gold_bt_chars">
-                        Martian Manhunter<br/>
-                        Martian Manhunter<br/>
-                        Martian Manhunter<br/>
-                    </span>
-                </div>
+            <div class="cutoff-table">
+                <div class="mp-subsubheader">iOS</div>
+                <span class="top1per_icon"></span>
+                <span>1%</span>
+                <span class="ios_cutoff">8,888,888</span>
+                <span class="top2per_icon"></span>
+                <span>2%</span>
+                <span class="ios_cutoff">8,888,888</span>
+                <span class="top3per_icon"></span>
+                <span>3%</span>
+                <span class="ios_cutoff">8,888,888</span>
+                <span class="top4per_icon"></span>
+                <span>4%</span>
+                <span class="ios_cutoff">888,888</span>
+                <span class="top5per_icon"></span>
+                <span>5%</span>
+                <span class="ios_cutoff">888,888</span>
+            </div>
+            <span class="cutoff_info">***Cutoffs from last cycle's season.</span>
+            <span class="mp-subsubheader upcoming-header">Upcoming Rewards</span>
+            <div class="upcoming_mp-wrapper">
+                <span class="upcoming_mp_icon"></span>
+                <span class="upcoming_mp_reward">The Joker Unhinged/Suicide Squad</span>
+                <span class="upcoming_mp_icon"></span>
+                <span class="upcoming_mp_reward">The Joker Unhinged/Suicide Squad</span>
+                <span class="upcoming_mp_icon"></span>
+                <span class="upcoming_mp_reward">The Joker Unhinged/Suicide Squad</span>
             </div>
         </div>
     </div>
+    <!-- <div class="bt-wrapper">
+        <div class="bt-wrapper_left">
+            <span class="bt-subheader">CURRENT WEEK</span>
+            <span class="date">Mon, Feb 30</span>
+            <span class="bt_chars">Bronze Characters</span>
+            <span class="date">Tue, Feb 30</span>
+            <span class="bt_chars">Silver Characters</span>
+            <span class="date">Wed, Feb 30</span>
+            <span class="bt_chars">Bronze Characters</span>
+            <span class="date">Thu, Feb 30</span>
+            <span class="bt_chars">Silver Characters</span>
+            <div class="gold_bt">
+                <span class="gold_bt_date">
+                    Fri, Feb 30<br/>
+                    Sat, Feb 30<br/>
+                    Sun, Feb 30<br/>
+                </span>
+                <span class="gold_bt_chars">
+                    Martian Manhunter<br/>
+                    Martian Manhunter<br/>
+                    Martian Manhunter<br/>
+                </span>
+            </div>
+        </div>
+        <div class="bt-wrapper_right">
+            <span class="bt-subheader">NEXT WEEK</span>
+            <span class="date">Mon, Feb 30</span>
+            <span class="bt_chars">Bronze Characters</span>
+            <span class="date">Tue, Feb 30</span>
+            <span class="bt_chars">Silver Characters</span>
+            <span class="date">Wed, Feb 30</span>
+            <span class="bt_chars">Bronze Characters</span>
+            <span class="date">Thu, Feb 30</span>
+            <span class="bt_chars">Silver Characters</span>
+            <div class="gold_bt">
+                <span class="gold_bt_date">
+                    Fri, Feb 30<br/>
+                    Sat, Feb 30<br/>
+                    Sun, Feb 30<br/>
+                </span>
+                <span class="gold_bt_chars">
+                    Martian Manhunter<br/>
+                    Martian Manhunter<br/>
+                    Martian Manhunter<br/>
+                </span>
+            </div>
+        </div>
+    </div> -->
 </body>
 
 </html>
