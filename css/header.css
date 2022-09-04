@@ -275,6 +275,7 @@
     -webkit-align-items: center;
     align-items: center;
     border-radius: 30%;
+    z-index: 10;
 }
 
 .mobile-menu .m-menu__checkbox {
@@ -472,6 +473,8 @@
     -webkit-transition: transform 0.4s;
     transition: transform 0.4s;
 }
+
+/* END Mobile Nav Menu */
 
 @media only screen and (max-width: 950px) {
     .navbar {
