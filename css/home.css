@@ -240,9 +240,9 @@ body {
 }
 
 #chal-wrapper .upcoming_chal_icon {
-    width: 100%;
-    height: 75%;
-    margin: 12.5% 0;
+    width: 6vw;
+    height: 6vw;
+    margin: 15% 0;
 }
 
 #chal-wrapper .upcoming_chal_info {
@@ -380,9 +380,9 @@ body {
 }
 
 #mp-wrapper .upcoming_mp_icon {
-    height: 90%;
-    width: 85%;
-    margin: 2.5% 7.5%;
+    height: 4vw;
+    width: 4vw;
+    margin: 0 12.5%;
 }
 
 #mp-wrapper .upcoming_mp_reward {
