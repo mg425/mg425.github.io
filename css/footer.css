@@ -1,0 +1,39 @@
+.footer {
+    margin-top: 2vw;
+    padding: 0 30vw;
+    display: grid;
+    grid-template-columns: 3vw 7vw 2.5vw 2.5vw 2.5vw 2.5vw 18vw;
+    color: white;
+    background-color: #010310;
+    font-family: FuturaCondensedMediumBT;
+}
+
+.footer .user_img {
+    border-radius: 50%;
+    height: 3vw;
+}
+
+.footer .username {
+    text-align: center;
+    font-size: 1.25vw;
+    padding: 0.75vw 0;
+    color: #caefff;
+}
+
+.footer .social_media {
+    height: 2vw;
+    margin: 0.5vw 0.25vw;
+}
+
+.footer .contrib {
+    width: 60%;
+    height: max-content;
+    margin: 1.75% 15%;
+    padding: 2.5% 5%;
+    line-height: 100%;
+    background-color: #131166;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5vw;
+    color: #97bcfe;
+}

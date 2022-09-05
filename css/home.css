@@ -1,21 +1,22 @@
 body {
     background-color: black;
-    height: 4000px;
 }
 
-/* Challenge/MP Display */
+/* BEGIN Challenge/MP Display */
 
-.chal_mp-grid {
+#chal_mp-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 20px;
+    grid-template-rows: auto auto;
+    margin-top: 1vw;
     padding: 0 3vw;
     column-gap: 4vw;
     color: white;
-    font-family: FuturaCondensedMedium;
+    font-family: 'FuturaCondensedMedium';
 }
 
-.chal_mp-header {
+/* Skewed background box for headers */
+.event-header {
     background: linear-gradient(to bottom, #052a99, #274cbb 40%, #274cbb 60%, #052a99 100%);
     padding: 1% 0;
     font-size: max(28px, 2.25vw);
@@ -23,20 +24,38 @@ body {
     transform: skew(-10deg);
 }
 
-.chal_mp-header span {
+/* Unskew text inside headers */
+.event-header span {
     display: inline-block;
     transform: skew(10deg);
 }
 
-.chal-wrapper,
-.mp-wrapper {
+/* Translate text of small headers up */
+#pz-header span,
+#survivor-header span {
+    transform: skew(10deg) translateY(10%);
+}
+
+/* Desktop/Tablet - Two sections displayed in 2 columns */
+#chal-wrapper,
+#mp-wrapper,
+#bt-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.chal-subheader,
-.mp-subheader {
-    grid-column: 1 / span 2;
+/* Split sections into two for 2 card/gear pics */
+#chal-wrapper_left,
+#chal-wrapper_right,
+#mp-wrapper_left,
+#mp-wrapper_right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Section Headers */
+.chal_mp-subheader,
+.bt-subheader {
     text-align: center;
     line-height: 100%;
     background: linear-gradient(to bottom, #131166, #353188 40%, #353188 60%, #131166 100%);
@@ -48,12 +67,13 @@ body {
     font-size: max(24px, 2vw);
 }
 
-.chal-wrapper_left,
-.chal-wrapper_right,
-.mp-wrapper_left,
-.mp-wrapper_right {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+/* Section Headers of 2 column-sections cover whole section */
+.chal_mp-subheader {
+    grid-column: 1 / span 2;
+}
+
+/* Wrapper containing event info */
+.event-subwrapper {
     width: 95%;
     margin: 2.5% 2.5% 0 2.5%;
     border-left: 2px solid #242077;
@@ -63,39 +83,31 @@ body {
     -webkit-box-shadow: 0 0 0.5vw 0 #274cbb;
     -moz-box-shadow: 0 0 0.5vw 0 #274cbb;
     box-shadow: 0 0 0.5vw 0 #274cbb;
+    background-color: #010310;
 }
 
-.chal-wrapper_left {
+#chal-wrapper_left {
     grid-template-rows: 4vw 14vw 3vw 7vw 4vw;
-    background-color: #010310;
 }
 
-.chal-wrapper_right {
-    grid-template-rows: 4vw 8vw 8vw 8vw 4vw;
-    background-color: #010310;
+#chal-wrapper_right {
+    grid-template-rows: 4vw 24vw 4vw;
 }
 
-.reward-container {
+/* BEGIN Card Container Styling */
+.card-container {
     text-align: center;
     position: relative;
-    font-family: FuturaCondensedMediumBT;
+    font-family: 'FuturaCondensedMediumBT';
 }
 
-.reward-container .card_img {
+.card-container .card_img {
     width: 80%;
     height: 100%;
     text-align: left;
 }
 
-.reward-container .damage_icon,
-.reward-container .health_icon {
-    position: absolute;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.reward-container .elite {
+.card-container .elite {
     position: absolute;
     font-size: 1.5vw;
     color: #f0f0f0;
@@ -103,7 +115,7 @@ body {
     left: 12%;
 }
 
-.reward-container .level {
+.card-container .level {
     position: absolute;
     font-size: 1.5vw;
     color: #f0f0f0;
@@ -111,14 +123,15 @@ body {
     right: 12%;
 }
 
-.reward-container .damage_icon {
+.card-container .damage_icon {
+    position: absolute;
     bottom: 13.5%;
     left: 11%;
     width: 0.7vw;
     height: 0.7vw;
 }
 
-.reward-container .damage {
+.card-container .damage {
     position: absolute;
     bottom: 12%;
     left: 18.5%;
@@ -127,14 +140,15 @@ body {
     color: #6080d0;
 }
 
-.reward-container .health_icon {
+.card-container .health_icon {
+    position: absolute;
     bottom: 13.5%;
     left: 37.7%;
     width: 0.87vw;
     height: 0.8vw;
 }
 
-.reward-container .health {
+.card-container .health {
     position: absolute;
     bottom: 12%;
     left: 46%;
@@ -143,7 +157,7 @@ body {
     color: #d80305;
 }
 
-.reward-container .aug-overlay {
+.card-container .aug-overlay {
     position: absolute;
     background-color: #192750;
     width: 65%;
@@ -157,18 +171,22 @@ body {
     color: #677a9b;
 }
 
-.reward-container .max_aug {
+.card-container .max_aug {
     display: inline-block;
     color: #f0f0f0;
     margin-left: 2%;
 }
 
-.reward-container .gear_img {
+/* END Card Container Styling */
+
+/* Gear displayed inside card container */
+.card-container .gear_img {
     width: 80%;
     height: 60%;
     margin: 25% 10% 25% 10%;
 }
 
+/* Gear Reward -> No card content displayed */
 .mp_gear .card_img,
 .mp_gear .elite,
 .mp_gear .level,
@@ -180,11 +198,13 @@ body {
     display: none;
 }
 
+/* Character Reward -> No gear content displayed */
 .mp_character .gear_img {
     display: none;
 } 
 
-.chal-wrapper .expire-container {
+/* BEGIN Challenge Section 1 Styling */
+#chal-wrapper #chal_exp {
     grid-column: 1 / span 2;
     display: block;
     width: 100%;
@@ -193,58 +213,56 @@ body {
     color: #caefff;
 }
 
-.chal-wrapper .reqs-wrapper {
+#chal-wrapper .reqs-wrapper {
     grid-column: 1 / span 2;
 }
 
-.chal-wrapper .reqs-header {
+#chal-wrapper .reqs-header {
     margin: 0% 5%;
     font-size: max(18px, 1.4vw);
     text-decoration: underline;
     color: #97bcfe;
 }
 
-.chal-wrapper .reqs-list {
+#chal-wrapper .reqs-list {
     list-style: none;
     margin: 0% 5%;
     font-size: max(14px, 1.2vw);
     color: #677a9b;
 }
+/* End Challenge Section 1 Styling */
 
-.chal-wrapper .upcoming_chal-wrapper {
+/* BEGIN Challenge Section 2 Styling */
+#chal-wrapper .upcoming_chal-wrapper {
     grid-column: 1 / span 2;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
 }
 
-.chal-wrapper .upcoming_chal_icon {
-    display: inline-block;
-    width: 25%;
-    height: 100%;
-    margin-left: 2%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url("../img/character/icon/Aquaman_Prime.png");
+#chal-wrapper .upcoming_chal_icon {
+    width: 100%;
+    height: 75%;
+    margin: 12.5% 0;
 }
 
-.chal-wrapper .upcoming_chal_info {
-    display: inline-block;
-    vertical-align: top;
-    width: 71%;
+#chal-wrapper .upcoming_chal_info {
     padding: 2.5% 0;
 }
 
-.chal-wrapper .upcoming_chal {
+#chal-wrapper .upcoming_chal {
     font-size: max(14px, 1.35vw);
     color: #97bcfe;
 }
+/* End Challenge Section 1 Styling */
 
-.chal-wrapper a,
-.mp-wrapper a,
-.bt-wrapper a,
-.pz-wrapper a,
-.survivor-wrapper a {
+/* Button Styling */
+#chal-wrapper a,
+#mp-wrapper a,
+#bt-wrapper a,
+#pz-wrapper a,
+#survivor-wrapper a {
     width: 75%;
-    height: fit-content;
+    height: max-content;
     margin: 5% 7.5%;
     padding: 5%;
     line-height: 100%;
@@ -255,17 +273,15 @@ body {
     color: #97bcfe;
 }
 
-.mp-wrapper_left {
+#mp-wrapper_left {
     grid-template-rows: 4vw 14vw 6vw 4vw 4vw;
-    background-color: #010310;
 }
 
-.mp-wrapper_right {
+#mp-wrapper_right {
     grid-template-rows: 4vw 11.75vw 1.25vw 2vw 13vw;
-    background-color: #010310;
 }
 
-.mp-wrapper .expire-container {
+#mp-wrapper .expire-container {
     grid-column: 1 / span 2;
     margin: 5% 0 5% 5%;
     padding-right: 12.5%;
@@ -275,14 +291,15 @@ body {
     color: #caefff;
 }
 
-.mp-wrapper .mp-subsubheader {
+/* Headers for cutoff tables/upcoming rewards */
+#mp-wrapper .mp-subsubheader {
     margin: 0% 5%;
     font-size: max(18px, 1.4vw);
     text-decoration: underline;
     text-align: center;
 }
 
-.mp-wrapper .cutoff-table {
+#mp-wrapper .cutoff-table {
     display: grid;
     grid-template-columns: 2fr 1fr 5fr;
     margin: 2% 5%;
@@ -294,7 +311,7 @@ body {
     border-right: 1px solid #081640;
 }
 
-.mp-wrapper .cutoff-table div {
+#mp-wrapper .cutoff-table div {
     grid-column: 1 / span 3;
     width: 100%;
     margin-left: 0;
@@ -303,17 +320,17 @@ body {
     color: #caefff;
 }
 
-.mp-wrapper .cutoff-table span {
+#mp-wrapper .cutoff-table span {
     border-bottom: 1px solid #081640;
     border-left: 1px solid #081640;
     color: #97bcfe;
 }
 
-.mp-wrapper .top1per_icon,
-.mp-wrapper .top2per_icon,
-.mp-wrapper .top3per_icon,
-.mp-wrapper .top4per_icon,
-.mp-wrapper .top5per_icon {
+#mp-wrapper .top1per_icon,
+#mp-wrapper .top2per_icon,
+#mp-wrapper .top3per_icon,
+#mp-wrapper .top4per_icon,
+#mp-wrapper .top5per_icon {
     display: inline-block;
     margin-left: 2%;
     background-size: contain;
@@ -321,39 +338,39 @@ body {
     background-position: center;
 }
 
-.mp-wrapper .top1per_icon {
+#mp-wrapper .top1per_icon {
     background-image: url("../img/icon/top_1_percent.png");
 }
 
-.mp-wrapper .top2per_icon {
+#mp-wrapper .top2per_icon {
     background-image: url("../img/icon/top_2_percent.png");
 }
 
-.mp-wrapper .top3per_icon {
+#mp-wrapper .top3per_icon {
     background-image: url("../img/icon/top_3_percent.png");
 }
 
-.mp-wrapper .top4per_icon {
+#mp-wrapper .top4per_icon {
     background-image: url("../img/icon/top_4_percent.png");
 }
 
-.mp-wrapper .top5per_icon {
+#mp-wrapper .top5per_icon {
     background-image: url("../img/icon/top_5_percent.png");
 }
 
-.mp-wrapper .cutoff_info {
+#mp-wrapper .cutoff_info {
     margin-left: 5%;
     font-size: max(8px, 0.9vw);
     font-style: italic;
     color: #97bcfe;
 }
 
-.mp-wrapper .upcoming-header {
+#mp-wrapper .upcoming-header {
     grid-column: 1 / span 2;
     color: #caefff;
 }
 
-.mp-wrapper .upcoming_mp-wrapper {
+#mp-wrapper .upcoming_mp-wrapper {
     grid-column: 1 / span 2;
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -362,20 +379,20 @@ body {
     color: #97bcfe;
 }
 
-.mp-wrapper .upcoming_mp_icon {
-    height: 80%;
-    margin-left: 2%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url("../img/character/icon/Aquaman_Prime.png");
+#mp-wrapper .upcoming_mp_icon {
+    height: 90%;
+    width: 85%;
+    margin: 2.5% 7.5%;
 }
 
-.mp-wrapper .upcoming_mp_reward {
+#mp-wrapper .upcoming_mp_reward {
     padding-top: 5%;
 }
+/* END Challenge/MP Display */
 
-.bt_pz_survivor-grid {
+/* BEGIN BT/PZ/Survivor Display */
+
+#bt_pz_survivor-grid {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-rows: max-content max-content;
@@ -383,75 +400,24 @@ body {
     padding: 0 3vw;
     column-gap: 4vw;
     color: white;
-    font-family: FuturaCondensedMedium;
-}
-
-.pz-header,
-.bt-header,
-.survivor-header {
-    background: linear-gradient(to bottom, #052a99, #274cbb 40%, #274cbb 60%, #052a99 100%);
-    padding: 1% 0;
-    font-size: max(28px, 2.25vw);
-    text-align: center;
-    transform: skew(-10deg);
-}
-
-.bt-header span {
-    display: inline-block;
-    transform: skew(10deg);
-}
-
-.pz-header span,
-.survivor-header span {
-    display: inline-block;
-    transform: skew(10deg) translateY(10%);
-}
-
-.pz-wrapper,
-.survivor-wrapper,
-.bt-wrapper_left,
-.bt-wrapper_right {
-    width: 95%;
-    margin: 2.5% 2.5% 0 2.5%;
-    border-left: 2px solid #242077;
-    border-right: 2px solid #242077;
-    border-bottom: 2px solid #242077;
-    border-radius: 5%;
-    -webkit-box-shadow: 0 0 0.5vw 0 #274cbb;
-    -moz-box-shadow: 0 0 0.5vw 0 #274cbb;
-    box-shadow: 0 0 0.5vw 0 #274cbb;
+    font-family: 'FuturaCondensedMedium';
 }
 
 .bt-header {
     grid-area: 1 / 1 / 2 / 2;
 }
 
-.bt-wrapper {
+#bt-wrapper {
     grid-area: 2 / 1 / 3 / 2;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 
-.bt-wrapper_left,
-.bt-wrapper_right {
+#bt-wrapper_left,
+#bt-wrapper_right {
     display: grid;
     grid-template-rows: 4vw 14vw 4vw;
-    background-color: #010310;
 }
 
-.bt-subheader {
-    text-align: center;
-    line-height: 100%;
-    background: linear-gradient(to bottom, #131166, #353188 40%, #353188 60%, #131166 100%);
-    padding: 2.5% 0;
-    margin: 0 0 2.5% 0;
-    -webkit-border-radius: 3% / 30%;
-    -moz-border-radius: 3% / 30%;
-    border-radius: 3% / 30%;
-    font-size: max(24px, 2vw);
-}
-
-.bt-wrapper .bt-table {
+#bt-wrapper .bt-table {
     display: grid;
     grid-template-columns: 2fr 3fr;
     margin: 2% 5%;
@@ -463,25 +429,25 @@ body {
     border-right: 2px solid #081640;
 }
 
-.bt-wrapper .bt-table span {
+#bt-wrapper .bt-table span {
     border-bottom: 2px solid #081640;
     border-left: 2px solid #081640;
 }
 
-.bt-wrapper .bt-table .bronze {
+#bt-wrapper .bt-table .bronze {
     color: #be7037;
 }
-.bt-wrapper .bt-table .silver { 
+#bt-wrapper .bt-table .silver { 
     color: #ccd4d8;
 }
-.bt-wrapper .bt-table .gold_bt_date,
-.bt-wrapper .bt-table .gold_bt_chars {
+#bt-wrapper .bt-table .gold_bt_date,
+#bt-wrapper .bt-table .gold_bt_chars {
     color: #e9b83b;
 }
 
-.bt-wrapper a,
-.pz-wrapper a,
-.survivor-wrapper a {
+#bt-wrapper a,
+#pz-wrapper a,
+#survivor-wrapper a {
     padding: 2.5%;
     margin: 2.5% 10%;
 }
@@ -490,14 +456,13 @@ body {
     grid-area: 1 / 2 / 2 / 3;
 }
 
-.pz-wrapper {
+#pz-wrapper {
     grid-area: 2 / 2 / 3 / 3;
     display: grid;
     grid-template-rows: 5vw 5vw 4vw 4vw 4vw;
-    background-color: #010310;
 }
 
-.pz-wrapper span {
+#pz-wrapper span {
     width: 90%;
     margin: 2% 5%;
     font-size: max(24px, 2vw);
@@ -505,12 +470,13 @@ body {
     color: #caefff;
 }
 
-.pz-wrapper .pz_active {
+/* Conditionally toggle with JS */
+#pz-wrapper .pz_active {
     color: #75ffaa;
     margin-top: 12.5%;
 }
 
-.pz-wrapper .pz_expired {
+#pz-wrapper .pz_expired {
     color: #ff9aaa;
 }
 
@@ -518,20 +484,20 @@ body {
     grid-area: 1 / 3 / 2 / 4;
 }
 
-.survivor-wrapper {
+#survivor-wrapper {
     grid-area: 2 / 3 / 3 / 4;
     display: grid;
     grid-template-rows: 6vw 8vw 4vw 4vw;
-    background-color: #010310;
 }
 
-.survivor-wrapper .top-info {
+#survivor-wrapper .top-info {
     font-size: max(14px, 1.35vw);
     color: #caefff;
     margin: 2% 5%;
 }
 
-.survivor-wrapper ol {
+/* Cycle List */
+#survivor-wrapper ol {
     font-size: max(17px, 1.5vw);
     color: #97bcfe;
     margin: 0% 10%;

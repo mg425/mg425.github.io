@@ -298,7 +298,7 @@
 
 /* Menu Overlay */
 .mobile-menu .m-menu__overlay {
-    background-color: #67676780;
+    background-color: rgb(103 103 103 / 50%);
     position: fixed;
     top: 0;
     left: 0;

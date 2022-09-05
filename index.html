@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
@@ -193,22 +194,22 @@
         </div>
     </nav>
 
-    <div class="chal_mp-grid">
-        <div class="chal_mp-header"><span>CHALLENGE</span></div>
-        <div class="chal_mp-header"><span>ONLINE BATTLES</span></div>
-        <div class="chal-wrapper">
-            <div class="chal-wrapper_left">
-                <span class="chal-subheader">Current Reward</span>
-                <div class="reward-container">
-                    <img class="card_img" id="base_stats" src="img/character/Aquaman_Prime.png" alt="Challenge Character Base Stats">
+    <div id="chal_mp-grid">
+        <div class="event-header"><span>CHALLENGE</span></div>
+        <div class="event-header"><span>ONLINE BATTLES</span></div>
+        <div id="chal-wrapper">
+            <div class="event-subwrapper" id="chal-wrapper_left">
+                <span class="chal_mp-subheader">Current Reward</span>
+                <div class="card-container">
+                    <img class="card_img" id="base_stats" src="img/character/card/Aquaman_Prime.png" alt="Challenge Character Base Stats">
                     <img class="damage_icon" src="img/icon/damage.png" alt="DMG">
                     <img class="health_icon" src="img/icon/health.png" alt="HP">
                     <div class="level">1</div>
                     <div class="damage">8,888</div>
                     <div class="health">8,888</div>
                 </div>
-                <div class="reward-container">
-                    <img class="card_img" id="max_stats" src="img/character/Aquaman_Prime.png" alt="Challenge Character Max Stats">
+                <div class="card-container">
+                    <img class="card_img" id="max_stats" src="img/character/card/Aquaman_Prime.png" alt="Challenge Character Max Stats">
                     <img class="damage_icon" src="img/icon/damage.png" alt="DMG">
                     <img class="health_icon" src="img/icon/health.png" alt="HP">
                     <div class="elite">X</div>
@@ -220,7 +221,7 @@
                     <div class="damage">888K</div>
                     <div class="health">888K</div>
                 </div>
-                <div class="expire-container">Expires: <span id="chal_exp">8d 88h 88m</span></div>
+                <span id="chal_exp">Expires: 8d 88h 88m</span>
                 <div class="reqs-wrapper">
                     <span class="reqs-header">REQUIREMENTS</span>
                     <ul class="reqs-list">
@@ -232,10 +233,10 @@
                 <a href="#">Stat Calculator</a>
                 <a href="#">Character Info</a>
             </div>
-            <div class="chal-wrapper_right">
-                <span class="chal-subheader">Upcoming Rewards</span>
+            <div class="event-subwrapper" id="chal-wrapper_right">
+                <span class="chal_mp-subheader">Upcoming Rewards</span>
                 <div class="upcoming_chal-wrapper">
-                    <span class="upcoming_chal_icon"></span>
+                    <img class="upcoming_chal_icon" src="img/character/icon/Aquaman_Prime.png" alt="Aquaman/Prime">
                     <div class="upcoming_chal_info">
                         <span class="upcoming_chal">Martian Manhunter/Blackest Night</span>
                         <ul class="reqs-list">
@@ -244,9 +245,7 @@
                             <li class="chal_req">&#x2022; Insurgency Character</li>
                         </ul>
                     </div>
-                </div>
-                <div class="upcoming_chal-wrapper">
-                    <span class="upcoming_chal_icon"></span>
+                    <img class="upcoming_chal_icon" src="img/character/icon/Aquaman_Prime.png" alt="Aquaman/Prime">
                     <div class="upcoming_chal_info">
                         <span class="upcoming_chal">Martian Manhunter/Blackest Night</span>
                         <ul class="reqs-list">
@@ -255,9 +254,7 @@
                             <li class="chal_req">&#x2022; Insurgency Character</li>
                         </ul>
                     </div>
-                </div>
-                <div class="upcoming_chal-wrapper">
-                    <span class="upcoming_chal_icon"></span>
+                    <img class="upcoming_chal_icon" src="img/character/icon/Aquaman_Prime.png" alt="Aquaman/Prime">
                     <div class="upcoming_chal_info">
                         <span class="upcoming_chal">Martian Manhunter/Blackest Night</span>
                         <ul class="reqs-list">
@@ -271,21 +268,23 @@
                 <a href="#">Unlock Reqs</a>
             </div>
         </div>
-        <div class="mp-wrapper">
-            <div class="mp-wrapper_left">
-                <span class="mp-subheader">Current Reward</span>
-                <div class="reward-container mp_gear">
+        <div id="mp-wrapper">
+            <div class="event-subwrapper" id="mp-wrapper_left">
+                <span class="chal_mp-subheader">Current Reward</span>
+                <div class="card-container mp_gear">
+                    <!-- Gear reward in this container, conditionally display all of card content or only gear -->
                     <img id="mp_unfused" class="gear_img" src="img/gear/unevolved/tantu_totem.png" alt="MP Gear Unfused">
-                    <img id="mp_base_stats" class="card_img" src="img/character/Aquaman_Prime.png" alt="MP Character Base Stats">
+                    <img id="mp_base_stats" class="card_img" src="img/character/card/Aquaman_Prime.png" alt="MP Character Base Stats">
                     <img class="damage_icon" src="img/icon/damage.png" alt="DMG">
                     <img class="health_icon" src="img/icon/health.png" alt="HP">
                     <div class="level">1</div>
                     <div class="damage">8,888</div>
                     <div class="health">8,888</div>
                 </div>
-                <div class="reward-container mp_character">
+                <div class="card-container mp_character">
+                    <!-- Gear reward in this container, conditionally display all of card content or only gear -->
                     <img id="mp_fused" class="gear_img" src="img/gear/evolved/tantu_totem.png" alt="MP Unfused">
-                    <img id="mp_max_stats" class="card_img" src="img/character/Aquaman_Prime.png" alt="MP Character Max Stats">
+                    <img id="mp_max_stats" class="card_img" src="img/character/card/Aquaman_Prime.png" alt="MP Character Max Stats">
                     <img class="damage_icon" src="img/icon/damage.png" alt="DMG">
                     <img class="health_icon" src="img/icon/health.png" alt="HP">
                     <div class="elite">X</div>
@@ -306,8 +305,8 @@
                 <a href="#">Full Cycle</a>
                 <a href="#">All Cutoffs</a>
             </div>
-            <div class="mp-wrapper_right">
-                <span class="mp-subheader">Past Cutoffs, Future Rewards</span>
+            <div class="event-subwrapper" id="mp-wrapper_right">
+                <span class="chal_mp-subheader">Past Cutoffs, Future Rewards</span>
                 <div class="cutoff-table">
                     <div class="mp-subsubheader">Android</div>
                     <span class="top1per_icon"></span>
@@ -347,20 +346,20 @@
                 <span class="cutoff_info">***Cutoffs from last cycle's season.</span>
                 <span class="mp-subsubheader upcoming-header">Upcoming Rewards</span>
                 <div class="upcoming_mp-wrapper">
-                    <span class="upcoming_mp_icon"></span>
+                    <img class="upcoming_mp_icon" src="img/character/icon/Aquaman_Prime.png" alt="Aquaman/Prime">
                     <span class="upcoming_mp_reward">The Joker Unhinged/Suicide Squad</span>
-                    <span class="upcoming_mp_icon"></span>
+                    <img class="upcoming_mp_icon" src="img/character/icon/Aquaman_Prime.png" alt="Aquaman/Prime">
                     <span class="upcoming_mp_reward">The Joker Unhinged/Suicide Squad</span>
-                    <span class="upcoming_mp_icon"></span>
+                    <img class="upcoming_mp_icon" src="img/character/icon/Aquaman_Prime.png" alt="Aquaman/Prime">
                     <span class="upcoming_mp_reward">The Joker Unhinged/Suicide Squad</span>
                 </div>
             </div>
         </div>
     </div>
-    <div class="bt_pz_survivor-grid">
-        <div class="bt-header"><span>BREAKTHROUGH</span></div>
-        <div class="bt-wrapper">
-            <div class="bt-wrapper_left">
+    <div id="bt_pz_survivor-grid">
+        <div class="event-header" id="bt-header"><span>BREAKTHROUGH</span></div>
+        <div id="bt-wrapper">
+            <div class="event-subwrapper" id="bt-wrapper_left">
                 <span class="bt-subheader">Current Week</span>
                 <div class="bt-table">
                     <span class="date bronze">Mon, Feb 30</span>
@@ -385,7 +384,7 @@
                 <a href="#">Breakthrough Guide</a>
             </div>
     
-            <div class="bt-wrapper_right">
+            <div class="event-subwrapper" id="bt-wrapper_right">
                 <span class="bt-subheader">Next Week</span>
                 <div class="bt-table">
                     <span class="date bronze">Mon, Feb 30</span>
@@ -411,8 +410,8 @@
             </div>
         </div>
     
-        <div class="pz-header"><span>PHANTOM ZONE</span></div>
-        <div class="pz-wrapper">
+        <div class="event-header" id="pz-header"><span>PHANTOM ZONE</span></div>
+        <div class="event-subwrapper" id="pz-wrapper">
             <span class="pz_active">Phantom Zone is Active.</span>
             <span>Expires in 88d 88h 88m.</span>
             <a href="#">Metal Special Upgrade Costs</a>
@@ -420,8 +419,8 @@
             <a href="#">Phantom Zone Guide</a>
         </div>
     
-        <div class="survivor-header"><span>SURVIVOR</span></div>
-        <div class="survivor-wrapper">
+        <div class="event-header" id="survivor-header"><span>SURVIVOR</span></div>
+        <div class="event-subwrapper" id="survivor-wrapper">
             <span class="top-info">Survivor's active set varies by account. Each set is active for two weeks before
                 switching to the next one. The set cycle is:</span>
             <ol>
@@ -435,17 +434,14 @@
         </div>
     </div>
 
-    <!-- <div class="footer">
-        <div class="developer_info">
-            <div class="user_card">
-                <img class="user_img" src="img/contributors/mg425.png">
-                <span class="username">Site Created By: mg425</span>
-            </div>
-            <a href="#">Additional Contributors</a> 
-        </div>
-        <span class="slogan">The Best Advice From The Best Players</span>
-    </div> -->
-
+    <div class="footer">
+        <img class="user_img" src="img/contributors/mg425.png" alt="mg425's icon">
+        <span class="username">Made by mg425</span>
+        <a href="https://github.com/mg425/mg425.github.io"><img class="social_media" src="img/social_media/github.png" alt="GitHub"></a>
+        <a href="https://www.youtube.com/c/mg425"><img class="social_media" src="img/social_media/youtube.png" alt="YouTube"></a>
+        <a href="https://www.reddit.com/user/mtgy425"><img class="social_media" src="img/social_media/reddit.png" alt="Reddit"></a>
+        <a href="https://discord.com/users/794719258865041430"><img class="social_media" src="img/social_media/discord.png" alt="Discord"></a>
+        <a href="#" class="contrib">Additional Contributors</a>
+    </div>
 </body>
-
 </html>
