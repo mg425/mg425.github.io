@@ -11,6 +11,7 @@
 .footer .user_img {
     border-radius: 50%;
     height: min(40px,4vw);
+    width: min(40px,4vw);
 }
 
 .footer .username {
@@ -22,6 +23,7 @@
 
 .footer .social_media {
     height: min(30px,3vw);
+    width: min(30px,3vw);
     margin: min(5px,0.5vw) min(2.5px,0.25vw);
 }
 

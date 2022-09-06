@@ -309,7 +309,7 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr 5fr;
     margin: 2% 5%;
-    font-size: max(14px, calc(1.4*var(--vw-scale)));
+    font-size: max(14px, calc(1.35*var(--vw-scale)));
     font-family: 'FuturaCondensedMediumBT';
     text-align: center;
     background-color: #040041;
@@ -345,23 +345,23 @@ body {
 }
 
 #mp-wrapper .top1per_icon {
-    background-image: url("../img/icon/top_1_percent.png");
+    background-image: url("../img/icon/top_1_percent.webp");
 }
 
 #mp-wrapper .top2per_icon {
-    background-image: url("../img/icon/top_2_percent.png");
+    background-image: url("../img/icon/top_2_percent.webp");
 }
 
 #mp-wrapper .top3per_icon {
-    background-image: url("../img/icon/top_3_percent.png");
+    background-image: url("../img/icon/top_3_percent.webp");
 }
 
 #mp-wrapper .top4per_icon {
-    background-image: url("../img/icon/top_4_percent.png");
+    background-image: url("../img/icon/top_4_percent.webp");
 }
 
 #mp-wrapper .top5per_icon {
-    background-image: url("../img/icon/top_5_percent.png");
+    background-image: url("../img/icon/top_5_percent.webp");
 }
 
 #mp-wrapper .cutoff_info {
