@@ -476,7 +476,7 @@
 
 /* END Mobile Nav Menu */
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1050px) {
     .navbar {
         display: none;
     }

@@ -1,8 +1,8 @@
 .footer {
     margin-top: 2vw;
-    padding: 0 30vw;
+    padding: 0 max(calc(50vw - 300px),20vw);
     display: grid;
-    grid-template-columns: 3vw 7vw 2.5vw 2.5vw 2.5vw 2.5vw 18vw;
+    grid-template-columns: min(40px,4vw) min(120px,12vw) min(40px,4vw) min(40px,4vw) min(40px,4vw) min(40px,4vw) min(300px,30vw);
     color: white;
     background-color: #010310;
     font-family: FuturaCondensedMediumBT;
@@ -10,30 +10,30 @@
 
 .footer .user_img {
     border-radius: 50%;
-    height: 3vw;
+    height: min(40px,4vw);
 }
 
 .footer .username {
     text-align: center;
-    font-size: 1.25vw;
-    padding: 0.75vw 0;
+    font-size: min(20px,2vw);
+    padding: min(7.5px,0.75vw) 0;
     color: #caefff;
 }
 
 .footer .social_media {
-    height: 2vw;
-    margin: 0.5vw 0.25vw;
+    height: min(30px,3vw);
+    margin: min(5px,0.5vw) min(2.5px,0.25vw);
 }
 
 .footer .contrib {
-    width: 60%;
+    width: 70%;
     height: max-content;
-    margin: 1.75% 15%;
-    padding: 2.5% 5%;
+    margin: 0.75% 10%;
+    padding: 2% 5%;
     line-height: 100%;
     background-color: #131166;
     text-decoration: none;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: min(25px,2.5vw);
     color: #97bcfe;
 }
