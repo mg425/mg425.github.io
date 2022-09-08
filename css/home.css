@@ -91,11 +91,11 @@ body {
 }
 
 #chal-wrapper_left {
-    grid-template-rows: calc(4*var(--vw-scale)) 14*var(--vw-scale) 3*var(--vw-scale) 7*var(--vw-scale) 4*var(--vw-scale);
+    grid-template-rows: 4fr 14fr 3fr 7fr 4fr; 
 }
 
 #chal-wrapper_right {
-    grid-template-rows: 4*var(--vw-scale) 24*var(--vw-scale) 4*var(--vw-scale);
+    grid-template-rows: 4fr 24fr 4fr;
 }
 
 /* BEGIN Card Container Styling */
@@ -211,7 +211,7 @@ body {
 #chal-wrapper #chal_exp {
     grid-column: 1 / span 2;
     display: block;
-    width: 100%;
+    width: 90%;
     margin: 2% 5%;
     font-size: max(20px, calc(1.5*var(--vw-scale)));
     color: #caefff;
@@ -255,7 +255,7 @@ body {
 }
 
 #chal-wrapper .upcoming_chal {
-    font-size: max(14px, calc(1.35*var(--vw-scale)));
+    font-size: max(14px, calc(1.33*var(--vw-scale)));
     color: #97bcfe;
 }
 
@@ -280,11 +280,11 @@ body {
 }
 
 #mp-wrapper_left {
-    grid-template-rows: calc(4*var(--vw-scale)) calc(14*var(--vw-scale)) calc(6*var(--vw-scale)) calc(4*var(--vw-scale)) calc(4*var(--vw-scale));
+    grid-template-rows: 4fr 14fr 6fr 4fr 4fr;
 }
 
 #mp-wrapper_right {
-    grid-template-rows: calc(4*var(--vw-scale)) calc(11.75*var(--vw-scale)) calc(1.25*var(--vw-scale)) calc(2*var(--vw-scale)) calc(13*var(--vw-scale));
+    grid-template-rows: 4fr 11.75fr 1.25fr 2fr 13fr;
 }
 
 #mp-wrapper .expire-container {
@@ -403,7 +403,7 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-rows: auto auto;
-    margin-top: 20px;
+    margin-top: 1vw;
     padding: 0 3vw;
     column-gap: 4vw;
     color: white;
@@ -421,14 +421,14 @@ body {
 #bt-wrapper_left,
 #bt-wrapper_right {
     display: grid;
-    grid-template-rows: calc(4*var(--vw-scale)) calc(14*var(--vw-scale)) calc(4*var(--vw-scale));
+    grid-template-rows: 3.5fr 14.5fr 4fr;
 }
 
 #bt-wrapper .bt-table {
     display: grid;
     grid-template-columns: 2fr 3fr;
     margin: 2% 5%;
-    font-size: max(14px, calc(1.4*var(--vw-scale)));
+    font-size: max(14px, calc(1.5*var(--vw-scale)));
     font-family: 'FuturaCondensedMediumBT';
     text-align: center;
     background-color: #040041;
@@ -468,7 +468,7 @@ body {
 #pz-wrapper {
     grid-area: 2 / 2 / 3 / 3;
     display: grid;
-    grid-template-rows: calc(5*var(--vw-scale)) calc(5*var(--vw-scale)) calc(4*var(--vw-scale)) calc(4*var(--vw-scale)) calc(4*var(--vw-scale));
+    grid-template-rows: 5fr 5fr 4fr 4fr 4fr;
 }
 
 #pz-wrapper span {
@@ -496,7 +496,7 @@ body {
 #survivor-wrapper {
     grid-area: 2 / 3 / 3 / 4;
     display: grid;
-    grid-template-rows: calc(6*var(--vw-scale)) calc(8*var(--vw-scale)) calc(4*var(--vw-scale)) calc(4*var(--vw-scale));
+    grid-template-rows: 6fr 8fr 4fr 4fr;
 }
 
 #survivor-wrapper .top-info {

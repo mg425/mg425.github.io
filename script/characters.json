@@ -1,0 +1,1154 @@
+[
+  {
+    "character": "Aquaman",
+    "version": null,
+    "rarity": "G",
+    "base_dmg": 950,
+    "base_hp": 1050,
+    "type": "C"
+  },
+  {
+    "character": "Aquaman",
+    "version": "Flashpoint",
+    "rarity": "G",
+    "base_dmg": 1350,
+    "base_hp": 1250,
+    "type": "M"
+  },
+  {
+    "character": "Aquaman",
+    "version": "Injustice 2",
+    "rarity": "G",
+    "base_dmg": 1400,
+    "base_hp": 1400,
+    "type": "C"
+  },
+  {
+    "character": "Aquaman",
+    "version": "Regime",
+    "rarity": "G",
+    "base_dmg": 800,
+    "base_hp": 1050,
+    "type": "C"
+  },
+  {
+    "character": "Ares",
+    "version": null,
+    "rarity": "G",
+    "base_dmg": 1200,
+    "base_hp": 900,
+    "type": "M"
+  },
+  {
+    "character": "Bane",
+    "version": null,
+    "rarity": "G",
+    "base_dmg": 650,
+    "base_hp": 1000,
+    "type": "S"
+  },
+  {
+    "character": "Bane",
+    "version": "Arkham Origins",
+    "rarity": "G",
+    "base_dmg": 1100,
+    "base_hp": 1100,
+    "type": "C"
+  },
+  {
+    "character": "Bane",
+    "version": "Knightfall",
+    "rarity": "S",
+    "base_dmg": 470,
+    "base_hp": 420,
+    "type": "W"
+  },
+  {
+    "character": "Bane",
+    "version": "Luchador",
+    "rarity": "G",
+    "base_dmg": 1100,
+    "base_hp": 800,
+    "type": "C"
+  },
+  {
+    "character": "Bane",
+    "version": "Regime",
+    "rarity": "S",
+    "base_dmg": 460,
+    "base_hp": 400,
+    "type": "S"
+  },
+  {
+    "character": "Batgirl",
+    "version": null,
+    "rarity": "G",
+    "base_dmg": 850,
+    "base_hp": 1000,
+    "type": "C"
+  },
+  {
+    "character": "Batgirl",
+    "version": "Arkham Knight",
+    "rarity": "G",
+    "base_dmg": 1375,
+    "base_hp": 1325,
+    "type": "C"
+  },
+  {
+    "character": "Batgirl",
+    "version": "Cassandra Cain",
+    "rarity": "G",
+    "base_dmg": 1150,
+    "base_hp": 950,
+    "type": "M"
+  },
+  {
+    "character": "Batman",
+    "version": null,
+    "rarity": "G",
+    "base_dmg": 700,
+    "base_hp": 1100,
+    "type": "S"
+  },
+  {
+    "character": "Batman",
+    "version": "Arkham Knight",
+    "rarity": "G",
+    "base_dmg": 1200,
+    "base_hp": 1300,
+    "type": "X"
+  },
+  {
+    "character": "Batman",
+    "version": "Arkham Origins",
+    "rarity": "G",
+    "base_dmg": 1000,
+    "base_hp": 1150,
+    "type": "S"
+  },
+  {
+    "character": "Batman",
+    "version": "Batman Ninja",
+    "rarity": "G",
+    "base_dmg": 1300,
+    "base_hp": 1500,
+    "type": "C"
+  },
+  {
+    "character": "Batman",
+    "version": "Beyond",
+    "rarity": "G",
+    "base_dmg": 850,
+    "base_hp": 900,
+    "type": "W"
+  },
+  {
+    "character": "Batman",
+    "version": "Blackest Night",
+    "rarity": "G",
+    "base_dmg": 1250,
+    "base_hp": 1000,
+    "type": "C"
+  },
+  {
+    "character": "Batman",
+    "version": "Dawn of Justice",
+    "rarity": "G",
+    "base_dmg": 1300,
+    "base_hp": 1200,
+    "type": "X"
+  },
+  {
+    "character": "Batman",
+    "version": "Flashpoint",
+    "rarity": "G",
+    "base_dmg": 1500,
+    "base_hp": 1300,
+    "type": "C"
+  },
+  {
+    "character": "Batman",
+    "version": "Gaslight",
+    "rarity": "G",
+    "base_dmg": 1400,
+    "base_hp": 1400,
+    "type": "C"
+  },
+  {
+    "character": "Batman",
+    "version": "Insurgency",
+    "rarity": "G",
+    "base_dmg": 750,
+    "base_hp": 1050,
+    "type": "S"
+  },
+  {
+    "character": "Batman",
+    "version": "Red Son",
+    "rarity": "G",
+    "base_dmg": 900,
+    "base_hp": 1000,
+    "type": "C"
+  },
+  {
+    "character": "Batman Beyond",
+    "version": "Animated",
+    "rarity": "G",
+    "base_dmg": 1100,
+    "base_hp": 1050,
+    "type": "C"
+  },
+  {
+    "character": "Black Adam",
+    "version": null,
+    "rarity": "S",
+    "base_dmg": 500,
+    "base_hp": 400,
+    "type": "S"
+  },
+  {
+    "character": "Black Adam",
+    "version": "Kahndaq",
+    "rarity": "G",
+    "base_dmg": 1100,
+    "base_hp": 1200,
+    "type": "C"
+  },
+  {
+    "character": "Black Adam",
+    "version": "New 52",
+    "rarity": "M",
+    "base_dmg": 2600,
+    "base_hp": 3000,
+    "type": "M"
+  },
+  {
+    "character": "Black Adam",
+    "version": "Regime",
+    "rarity": "G",
+    "base_dmg": 750,
+    "base_hp": 750,
+    "type": "S"
+  },
+  {
+    "character": "Catwoman",
+    "version": null,
+    "rarity": "S",
+    "base_dmg": 400,
+    "base_hp": 300,
+    "type": "S"
+  },
+  {
+    "character": "Catwoman",
+    "version": "Ame-Comi",
+    "rarity": "G",
+    "base_dmg": 1200,
+    "base_hp": 1400,
+    "type": "C"
+  },
+  {
+    "character": "Catwoman",
+    "version": "Arkham Knight",
+    "rarity": "G",
+    "base_dmg": 1300,
+    "base_hp": 1000,
+    "type": "C"
+  },
+  {
+    "character": "Catwoman",
+    "version": "Batman Ninja",
+    "rarity": "M",
+    "base_dmg": 2900,
+    "base_hp": 2700,
+    "type": "M"
+  },
+  {
+    "character": "Catwoman",
+    "version": "Batman Returns",
+    "rarity": "G",
+    "base_dmg": 950,
+    "base_hp": 850,
+    "type": "S"
+  },
+  {
+    "character": "Catwoman",
+    "version": "Regime",
+    "rarity": "B",
+    "base_dmg": 200,
+    "base_hp": 200,
+    "type": "S"
+  },
+  {
+    "character": "Cyborg",
+    "version": null,
+    "rarity": "B",
+    "base_dmg": 190,
+    "base_hp": 250,
+    "type": "S"
+  },
+  {
+    "character": "Cyborg",
+    "version": "Regime",
+    "rarity": "S",
+    "base_dmg": 370,
+    "base_hp": 450,
+    "type": "S"
+  },
+  {
+    "character": "Cyborg",
+    "version": "Teen Titans",
+    "rarity": "G",
+    "base_dmg": 700,
+    "base_hp": 1000,
+    "type": "S"
+  },
+  {
+    "character": "Darkseid",
+    "version": null,
+    "rarity": "G",
+    "base_dmg": 1050,
+    "base_hp": 1200,
+    "type": "C"
+  },
+  {
+    "character": "Darkseid",
+    "version": "Apokolips",
+    "rarity": "G",
+    "base_dmg": 1100,
+    "base_hp": 1400,
+    "type": "C"
+  },
+  {
+    "character": "Deadshot",
+    "version": "Arkham Origins",
+    "rarity": "G",
+    "base_dmg": 1450,
+    "base_hp": 1250,
+    "type": "M"
+  },
+  {
+    "character": "Deadshot",
+    "version": "Suicide Squad",
+    "rarity": "G",
+    "base_dmg": 1450,
+    "base_hp": 1250,
+    "type": "C"
+  },
+  {
+    "character": "Deathstroke",
+    "version": null,
+    "rarity": "S",
+    "base_dmg": 460,
+    "base_hp": 400,
+    "type": "S"
+  },
+  {
+    "character": "Deathstroke",
+    "version": "Arkham Origins",
+    "rarity": "G",
+    "base_dmg": 850,
+    "base_hp": 1100,
+    "type": "C"
+  },
+  {
+    "character": "Deathstroke",
+    "version": "Flashpoint",
+    "rarity": "G",
+    "base_dmg": 1240,
+    "base_hp": 1360,
+    "type": "M"
+  },
+  {
+    "character": "Deathstroke",
+    "version": "Insurgency",
+    "rarity": "B",
+    "base_dmg": 270,
+    "base_hp": 200,
+    "type": "S"
+  },
+  {
+    "character": "Deathstroke",
+    "version": "Red Son",
+    "rarity": "G",
+    "base_dmg": 950,
+    "base_hp": 900,
+    "type": "C"
+  },
+  {
+    "character": "Doomsday",
+    "version": null,
+    "rarity": "G",
+    "base_dmg": 850,
+    "base_hp": 1050,
+    "type": "S"
+  },
+  {
+    "character": "Doomsday",
+    "version": "Blackest Night",
+    "rarity": "G",
+    "base_dmg": 1050,
+    "base_hp": 1400,
+    "type": "M"
+  },
+  {
+    "character": "Doomsday",
+    "version": "Containment",
+    "rarity": "G",
+    "base_dmg": 700,
+    "base_hp": 600,
+    "type": "C"
+  },
+  {
+    "character": "Doomsday",
+    "version": "Regime",
+    "rarity": "S",
+    "base_dmg": 400,
+    "base_hp": 500,
+    "type": "S"
+  },
+  {
+    "character": "General Zod",
+    "version": "Man of Steel",
+    "rarity": "G",
+    "base_dmg": 800,
+    "base_hp": 1200,
+    "type": "S"
+  },
+  {
+    "character": "Green Arrow",
+    "version": null,
+    "rarity": "S",
+    "base_dmg": 380,
+    "base_hp": 420,
+    "type": "S"
+  },
+  {
+    "character": "Green Arrow",
+    "version": "Arrow",
+    "rarity": "G",
+    "base_dmg": 900,
+    "base_hp": 950,
+    "type": "S"
+  },
+  {
+    "character": "Green Arrow",
+    "version": "Insurgency",
+    "rarity": "B",
+    "base_dmg": 190,
+    "base_hp": 230,
+    "type": "S"
+  },
+  {
+    "character": "Green Arrow",
+    "version": "Rebirth",
+    "rarity": "G",
+    "base_dmg": 1300,
+    "base_hp": 1350,
+    "type": "C"
+  },
+  {
+    "character": "Green Lantern",
+    "version": null,
+    "rarity": "B",
+    "base_dmg": 260,
+    "base_hp": 200,
+    "type": "S"
+  },
+  {
+    "character": "Green Lantern",
+    "version": "John Stewart",
+    "rarity": "G",
+    "base_dmg": 750,
+    "base_hp": 950,
+    "type": "C"
+  },
+  {
+    "character": "Green Lantern",
+    "version": "New 52",
+    "rarity": "B",
+    "base_dmg": 270,
+    "base_hp": 210,
+    "type": "W"
+  },
+  {
+    "character": "Green Lantern",
+    "version": "Red Son",
+    "rarity": "G",
+    "base_dmg": 850,
+    "base_hp": 1150,
+    "type": "C"
+  },
+  {
+    "character": "Green Lantern",
+    "version": "Regime",
+    "rarity": "S",
+    "base_dmg": 450,
+    "base_hp": 400,
+    "type": "S"
+  },
+  {
+    "character": "Hal Jordan",
+    "version": "Red Lantern",
+    "rarity": "G",
+    "base_dmg": 950,
+    "base_hp": 1400,
+    "type": "C"
+  },
+  {
+    "character": "Hal Jordan",
+    "version": "Yellow Lantern",
+    "rarity": "G",
+    "base_dmg": 1400,
+    "base_hp": 1300,
+    "type": "C"
+  },
+  {
+    "character": "Harley Quinn",
+    "version": null,
+    "rarity": "B",
+    "base_dmg": 200,
+    "base_hp": 200,
+    "type": "S"
+  },
+  {
+    "character": "Harley Quinn",
+    "version": "Animated",
+    "rarity": "G",
+    "base_dmg": 700,
+    "base_hp": 900,
+    "type": "S"
+  },
+  {
+    "character": "Harley Quinn",
+    "version": "Arkham",
+    "rarity": "G",
+    "base_dmg": 900,
+    "base_hp": 950,
+    "type": "W"
+  },
+  {
+    "character": "Harley Quinn",
+    "version": "Arkham Knight",
+    "rarity": "G",
+    "base_dmg": 1100,
+    "base_hp": 1000,
+    "type": "C"
+  },
+  {
+    "character": "Harley Quinn",
+    "version": "Insurgency",
+    "rarity": "S",
+    "base_dmg": 380,
+    "base_hp": 320,
+    "type": "S"
+  },
+  {
+    "character": "Harley Quinn",
+    "version": "Suicide Squad",
+    "rarity": "G",
+    "base_dmg": 1250,
+    "base_hp": 1450,
+    "type": "C"
+  },
+  {
+    "character": "Hawkgirl",
+    "version": null,
+    "rarity": "G",
+    "base_dmg": 900,
+    "base_hp": 950,
+    "type": "C"
+  },
+  {
+    "character": "Hawkgirl",
+    "version": "Blackest Night",
+    "rarity": "G",
+    "base_dmg": 1240,
+    "base_hp": 1360,
+    "type": "C"
+  },
+  {
+    "character": "Hawkgirl",
+    "version": "Earth 2",
+    "rarity": "G",
+    "base_dmg": 1400,
+    "base_hp": 1300,
+    "type": "C"
+  },
+  {
+    "character": "Hawkgirl",
+    "version": "Regime",
+    "rarity": "G",
+    "base_dmg": 1100,
+    "base_hp": 1000,
+    "type": "C"
+  },
+  {
+    "character": "Jessica Cruz",
+    "version": "Rebirth",
+    "rarity": "G",
+    "base_dmg": 1325,
+    "base_hp": 1325,
+    "type": "C"
+  },
+  {
+    "character": "Killer Croc",
+    "version": "Arkham",
+    "rarity": "G",
+    "base_dmg": 1240,
+    "base_hp": 1360,
+    "type": "C"
+  },
+  {
+    "character": "Killer Frost",
+    "version": null,
+    "rarity": "G",
+    "base_dmg": 850,
+    "base_hp": 1200,
+    "type": "C"
+  },
+  {
+    "character": "Killer Frost",
+    "version": "Regime",
+    "rarity": "G",
+    "base_dmg": 700,
+    "base_hp": 1250,
+    "type": "C"
+  },
+  {
+    "character": "Lex Luthor",
+    "version": null,
+    "rarity": "B",
+    "base_dmg": 220,
+    "base_hp": 220,
+    "type": "S"
+  },
+  {
+    "character": "Lex Luthor",
+    "version": "Insurgency",
+    "rarity": "S",
+    "base_dmg": 420,
+    "base_hp": 420,
+    "type": "S"
+  },
+  {
+    "character": "Lex Luthor",
+    "version": "Krypto",
+    "rarity": "G",
+    "base_dmg": 800,
+    "base_hp": 950,
+    "type": "S"
+  },
+  {
+    "character": "Lobo",
+    "version": null,
+    "rarity": "G",
+    "base_dmg": 850,
+    "base_hp": 1000,
+    "type": "S"
+  },
+  {
+    "character": "Lobo",
+    "version": "Bounty Hunter",
+    "rarity": "G",
+    "base_dmg": 1250,
+    "base_hp": 950,
+    "type": "C"
+  },
+  {
+    "character": "Lord Joker",
+    "version": "Batman Ninja",
+    "rarity": "G",
+    "base_dmg": 1500,
+    "base_hp": 1300,
+    "type": "C"
+  },
+  {
+    "character": "Martian Manhunter",
+    "version": null,
+    "rarity": "G",
+    "base_dmg": 750,
+    "base_hp": 1200,
+    "type": "C"
+  },
+  {
+    "character": "Martian Manhunter",
+    "version": "Blackest Night",
+    "rarity": "G",
+    "base_dmg": 1000,
+    "base_hp": 1300,
+    "type": "C"
+  },
+  {
+    "character": "Nightwing",
+    "version": null,
+    "rarity": "B",
+    "base_dmg": 210,
+    "base_hp": 210,
+    "type": "S"
+  },
+  {
+    "character": "Nightwing",
+    "version": "Batman Ninja",
+    "rarity": "M",
+    "base_dmg": 2850,
+    "base_hp": 2750,
+    "type": "M"
+  },
+  {
+    "character": "Nightwing",
+    "version": "New 52",
+    "rarity": "G",
+    "base_dmg": 850,
+    "base_hp": 950,
+    "type": "S"
+  },
+  {
+    "character": "Nightwing",
+    "version": "Regime",
+    "rarity": "S",
+    "base_dmg": 420,
+    "base_hp": 380,
+    "type": "S"
+  },
+  {
+    "character": "Raven",
+    "version": null,
+    "rarity": "G",
+    "base_dmg": 1050,
+    "base_hp": 1000,
+    "type": "C"
+  },
+  {
+    "character": "Raven",
+    "version": "Rebirth",
+    "rarity": "G",
+    "base_dmg": 1300,
+    "base_hp": 1350,
+    "type": "C"
+  },
+  {
+    "character": "Raven",
+    "version": "Regime",
+    "rarity": "G",
+    "base_dmg": 950,
+    "base_hp": 950,
+    "type": "C"
+  },
+  {
+    "character": "Raven",
+    "version": "Teen Titans",
+    "rarity": "G",
+    "base_dmg": 1400,
+    "base_hp": 1200,
+    "type": "C"
+  },
+  {
+    "character": "Reverse Flash",
+    "version": null,
+    "rarity": "G",
+    "base_dmg": 1000,
+    "base_hp": 1000,
+    "type": "M"
+  },
+  {
+    "character": "Scorpion",
+    "version": "Klassic",
+    "rarity": "G",
+    "base_dmg": 1400,
+    "base_hp": 1200,
+    "type": "C"
+  },
+  {
+    "character": "Scorpion",
+    "version": "Mortal Kombat",
+    "rarity": "G",
+    "base_dmg": 950,
+    "base_hp": 850,
+    "type": "C"
+  },
+  {
+    "character": "Scorpion",
+    "version": "Mortal Kombat X",
+    "rarity": "G",
+    "base_dmg": 1200,
+    "base_hp": 1000,
+    "type": "C"
+  },
+  {
+    "character": "Shazam",
+    "version": null,
+    "rarity": "G",
+    "base_dmg": 950,
+    "base_hp": 1350,
+    "type": "X"
+  },
+  {
+    "character": "Shazam",
+    "version": "New 52",
+    "rarity": "M",
+    "base_dmg": 3000,
+    "base_hp": 2700,
+    "type": "M"
+  },
+  {
+    "character": "Sinestro",
+    "version": null,
+    "rarity": "B",
+    "base_dmg": 260,
+    "base_hp": 210,
+    "type": "S"
+  },
+  {
+    "character": "Sinestro",
+    "version": "Antimatter",
+    "rarity": "G",
+    "base_dmg": 1200,
+    "base_hp": 1200,
+    "type": "C"
+  },
+  {
+    "character": "Sinestro",
+    "version": "Green Lantern",
+    "rarity": "G",
+    "base_dmg": 900,
+    "base_hp": 950,
+    "type": "S"
+  },
+  {
+    "character": "Sinestro",
+    "version": "Regime",
+    "rarity": "S",
+    "base_dmg": 450,
+    "base_hp": 400,
+    "type": "S"
+  },
+  {
+    "character": "Solomon Grundy",
+    "version": null,
+    "rarity": "S",
+    "base_dmg": 350,
+    "base_hp": 480,
+    "type": "S"
+  },
+  {
+    "character": "Solomon Grundy",
+    "version": "Boss",
+    "rarity": "G",
+    "base_dmg": 550,
+    "base_hp": 1250,
+    "type": "C"
+  },
+  {
+    "character": "Solomon Grundy",
+    "version": "Earth 2",
+    "rarity": "G",
+    "base_dmg": 1100,
+    "base_hp": 1300,
+    "type": "C"
+  },
+  {
+    "character": "Solomon Grundy",
+    "version": "Red Son",
+    "rarity": "G",
+    "base_dmg": 800,
+    "base_hp": 900,
+    "type": "X"
+  },
+  {
+    "character": "Solomon Grundy",
+    "version": "Regime",
+    "rarity": "B",
+    "base_dmg": 200,
+    "base_hp": 260,
+    "type": "S"
+  },
+  {
+    "character": "Static",
+    "version": null,
+    "rarity": "G",
+    "base_dmg": 1050,
+    "base_hp": 1050,
+    "type": "C"
+  },
+  {
+    "character": "Superman",
+    "version": null,
+    "rarity": "G",
+    "base_dmg": 800,
+    "base_hp": 1200,
+    "type": "S"
+  },
+  {
+    "character": "Superman",
+    "version": "Blackest Night",
+    "rarity": "G",
+    "base_dmg": 1375,
+    "base_hp": 1425,
+    "type": "M"
+  },
+  {
+    "character": "Superman",
+    "version": "Dawn of Justice",
+    "rarity": "G",
+    "base_dmg": 1300,
+    "base_hp": 1300,
+    "type": "C"
+  },
+  {
+    "character": "Superman",
+    "version": "Godfall",
+    "rarity": "G",
+    "base_dmg": 1000,
+    "base_hp": 1250,
+    "type": "C"
+  },
+  {
+    "character": "Superman",
+    "version": "Injustice 2",
+    "rarity": "G",
+    "base_dmg": 1300,
+    "base_hp": 1500,
+    "type": "C"
+  },
+  {
+    "character": "Superman",
+    "version": "Man of Steel",
+    "rarity": "G",
+    "base_dmg": 800,
+    "base_hp": 1200,
+    "type": "S"
+  },
+  {
+    "character": "Superman",
+    "version": "New 52",
+    "rarity": "G",
+    "base_dmg": 1300,
+    "base_hp": 1500,
+    "type": "C"
+  },
+  {
+    "character": "Superman",
+    "version": "Prison",
+    "rarity": "G",
+    "base_dmg": 700,
+    "base_hp": 800,
+    "type": "W"
+  },
+  {
+    "character": "Superman",
+    "version": "Red Son",
+    "rarity": "G",
+    "base_dmg": 1000,
+    "base_hp": 1100,
+    "type": "X"
+  },
+  {
+    "character": "Superman",
+    "version": "Regime",
+    "rarity": "G",
+    "base_dmg": 900,
+    "base_hp": 1100,
+    "type": "S"
+  },
+  {
+    "character": "The Arkham Knight",
+    "version": "Arkham Knight",
+    "rarity": "G",
+    "base_dmg": 1100,
+    "base_hp": 1200,
+    "type": "C"
+  },
+  {
+    "character": "The Batman Who Laughs",
+    "version": "Metal",
+    "rarity": "M",
+    "base_dmg": 2800,
+    "base_hp": 2800,
+    "type": "M"
+  },
+  {
+    "character": "The Flash",
+    "version": null,
+    "rarity": "B",
+    "base_dmg": 280,
+    "base_hp": 180,
+    "type": "S"
+  },
+  {
+    "character": "The Flash",
+    "version": "Blackest Night",
+    "rarity": "G",
+    "base_dmg": 1500,
+    "base_hp": 1300,
+    "type": "M"
+  },
+  {
+    "character": "The Flash",
+    "version": "Earth 2",
+    "rarity": "G",
+    "base_dmg": 1350,
+    "base_hp": 1350,
+    "type": "C"
+  },
+  {
+    "character": "The Flash",
+    "version": "Elseworld",
+    "rarity": "G",
+    "base_dmg": 750,
+    "base_hp": 750,
+    "type": "C"
+  },
+  {
+    "character": "The Flash",
+    "version": "Metahuman",
+    "rarity": "G",
+    "base_dmg": 1200,
+    "base_hp": 1200,
+    "type": "M"
+  },
+  {
+    "character": "The Flash",
+    "version": "New 52",
+    "rarity": "B",
+    "base_dmg": 280,
+    "base_hp": 180,
+    "type": "W"
+  },
+  {
+    "character": "The Flash",
+    "version": "Regime",
+    "rarity": "S",
+    "base_dmg": 480,
+    "base_hp": 370,
+    "type": "S"
+  },
+  {
+    "character": "The Joker",
+    "version": null,
+    "rarity": "S",
+    "base_dmg": 470,
+    "base_hp": 400,
+    "type": "S"
+  },
+  {
+    "character": "The Joker",
+    "version": "Arkham Origins",
+    "rarity": "G",
+    "base_dmg": 1150,
+    "base_hp": 850,
+    "type": "C"
+  },
+  {
+    "character": "The Joker",
+    "version": "Insurgency",
+    "rarity": "G",
+    "base_dmg": 750,
+    "base_hp": 850,
+    "type": "S"
+  },
+  {
+    "character": "The Joker",
+    "version": "Suicide Squad",
+    "rarity": "G",
+    "base_dmg": 1350,
+    "base_hp": 1350,
+    "type": "C"
+  },
+  {
+    "character": "The Joker",
+    "version": "The Killing Joke",
+    "rarity": "G",
+    "base_dmg": 950,
+    "base_hp": 750,
+    "type": "S"
+  },
+  {
+    "character": "The Joker Unhinged",
+    "version": "Suicide Squad",
+    "rarity": "G",
+    "base_dmg": 1400,
+    "base_hp": 1300,
+    "type": "M"
+  },
+  {
+    "character": "The Merciless",
+    "version": "Metal",
+    "rarity": "M",
+    "base_dmg": 2700,
+    "base_hp": 2900,
+    "type": "M"
+  },
+  {
+    "character": "Wally West",
+    "version": "Rebirth",
+    "rarity": "G",
+    "base_dmg": 1350,
+    "base_hp": 1300,
+    "type": "M"
+  },
+  {
+    "character": "Wonder Woman",
+    "version": null,
+    "rarity": "S",
+    "base_dmg": 420,
+    "base_hp": 460,
+    "type": "S"
+  },
+  {
+    "character": "Wonder Woman",
+    "version": "600",
+    "rarity": "G",
+    "base_dmg": 800,
+    "base_hp": 1100,
+    "type": "C"
+  },
+  {
+    "character": "Wonder Woman",
+    "version": "Dawn of Justice",
+    "rarity": "G",
+    "base_dmg": 1100,
+    "base_hp": 1400,
+    "type": "C"
+  },
+  {
+    "character": "Wonder Woman",
+    "version": "New 52",
+    "rarity": "G",
+    "base_dmg": 1300,
+    "base_hp": 1200,
+    "type": "C"
+  },
+  {
+    "character": "Wonder Woman",
+    "version": "Red Son",
+    "rarity": "G",
+    "base_dmg": 900,
+    "base_hp": 1000,
+    "type": "X"
+  },
+  {
+    "character": "Wonder Woman",
+    "version": "Regime",
+    "rarity": "G",
+    "base_dmg": 750,
+    "base_hp": 1050,
+    "type": "S"
+  },
+  {
+    "character": "Zatanna",
+    "version": null,
+    "rarity": "G",
+    "base_dmg": 900,
+    "base_hp": 1150,
+    "type": "C"
+  },
+  {
+    "character": "Zod",
+    "version": null,
+    "rarity": "G",
+    "base_dmg": 800,
+    "base_hp": 1200,
+    "type": "C"
+  }
+]
